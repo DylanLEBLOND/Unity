@@ -13,6 +13,10 @@ public class cameraScript : MonoBehaviour
 	public playerScript_ex01	claire;
 	public Vector3				claireInitPos;
 
+	public DoorScript[]			switchDoors;
+
+	public ElevatorSwitchScript	elevators;
+
 	public int					nextScene;
 
 	private int					current;
@@ -37,6 +41,8 @@ public class cameraScript : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
+		int i;
+
 		if (this.claire == null || this.john == null || this.thomas == null)
 		{
 			Debug.LogError ("obj param == null");
@@ -48,7 +54,13 @@ public class cameraScript : MonoBehaviour
 			this.thomas.reset (this.thomasInitPos);
 			this.john.reset (this.johnInitPos);
 			this.claire.reset (this.claireInitPos);
-
+			if (this.switchDoors != null)
+			{
+				for (i = 0; i < this.switchDoors.Length; i++)
+					this.switchDoors [i].reset ();
+			}
+			if (this.elevators != null)
+				this.elevators.reset ();
 			this.thomas.setIsActif (true);
 			this.current = 1;
 		}
@@ -56,7 +68,7 @@ public class cameraScript : MonoBehaviour
 		if (this.thomas.getIsOut() && this.john.getIsOut() && this.claire.getIsOut())
 		{
 			if (this.current == 1)
-				Debug.Log ("You Win");
+				Debug.Log ("You Won");
 			Application.LoadLevel (this.nextScene);
 		}
 			

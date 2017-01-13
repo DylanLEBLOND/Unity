@@ -6,14 +6,12 @@ public class playerScript_ex01 : MonoBehaviour
 {
 	private bool	isActif;
 	private bool	isOut;
-	private Vector3	zoneTeleport;
 
 	void Start ()
 	{
 		Physics2D.gravity = new Vector2 (0, -5);
 		this.isActif = false;
 		this.isOut = false;
-		this.zoneTeleport = Vector3.zero;
 	}
 
 	public void reset (Vector3 pos)
@@ -27,13 +25,8 @@ public class playerScript_ex01 : MonoBehaviour
 	{
 		this.isActif = isActif;
 	}
-
-	public void setZoneTeleport (Vector3 zone)
-	{
-		this.zoneTeleport = zone;
-	}
-
-	void OnTriggerStay2D (Collider2D collider)
+		
+	void OnTriggerEnter2D (Collider2D collider)
 	{
 		if (collider.tag == this.tag)
 			this.isOut = true;
@@ -43,8 +36,6 @@ public class playerScript_ex01 : MonoBehaviour
 	{
 		if (collider.tag == this.tag)
 			this.isOut = false;
-		if (collider.tag == this.tag + "teleporteur" && this.zoneTeleport != Vector3.zero)
-			this.transform.position = this.zoneTeleport;
 	}
 
 	public bool getIsOut()
