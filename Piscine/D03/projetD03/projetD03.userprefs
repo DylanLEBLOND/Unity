@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/dragTurretScript.cs">
+    <Files>
+      <File FileName="Assets/Scripts/confirmationScript.cs" Line="11" Column="3" />
+      <File FileName="Assets/Scripts/dragTurretScript.cs" Line="19" Column="1" />
+      <File FileName="Assets/Scripts/gameManager.cs" Line="17" Column="36" />
+      <File FileName="Assets/Scripts/cursorScript.cs" Line="10" Column="2" />
+      <File FileName="Assets/Scripts/endOfGameScript.cs" Line="74" Column="6" />
+      <File FileName="Assets/Scripts/playerInfoScript.cs" Line="19" Column="3" />
+      <File FileName="Assets/Scripts/pauseScript.cs" Line="43" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
