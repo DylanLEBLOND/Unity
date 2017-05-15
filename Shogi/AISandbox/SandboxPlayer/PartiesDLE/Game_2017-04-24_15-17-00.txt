@@ -1,0 +1,479 @@
+********** Gote Algorithm: NegaScout | Sente Algorithm: AlphaBeta | Depth: 4 **********
+root Gote score = -750
+root Sente score = 750
+root Gote Captured Tokens = { }
+root Sente Captured Tokens = { }
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |  4720 |       |       |       |      
+      |       |       |       | -1040 |       |       |       |      
+      |  890  |       |       |       |       |       |       |      
+ -100 |       |  -100 | -4720 |       |       |       |       |      
+********** Turn 1 Gote Playing **********
+Entree de l'algo NegaScout Gote Turn ? True
+-10380 | 10330 | 10330 | 10630 | 10630 | 999999999 | 999999999 | 999999999 | 999999999 | 999999999 | 999999999 | 999999999 | 999999999 | 999999999 | 999999999 | 999999999 | 999999999 | 999999999 | 999999999 | 999999999 | 999999999 | 999999999
+Sortie de l'algo NegaScout. Node Index = 0 | Nodes Checked = 254 | Duree = 78 ms
+Score du noeud selectionne : 1990 | Threat = -10380
+Gote score = 1730
+Sente score = -1730
+Gote Captured Tokens = ROOK
+Sente Captured Tokens = { }
+Turn Duration: 93 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |  4720 |       |       |       |      
+      |  890  |       |       |       |       |       |       |      
+ -100 |       |  -100 | -4720 |       |       |       |       |      
+********** Turn 2 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 3564 | Duree = 2995 ms
+Score du noeud selectionne : -2190 | Threat = 177880
+Gote score = 1730
+Sente score = -1730
+Gote Captured Tokens = ROOK
+Sente Captured Tokens = { }
+Turn Duration: 2995 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |  4720 |       |       |       |      
+      |  890  | -4720 |       |       |       |       |       |      
+ -100 |       |  -100 |       |       |       |       |       |      
+********** Turn 3 Gote Playing **********
+Entree de l'algo NegaScout Gote Turn ? True
+-18470 | -16390 | -16330 | -16320 | -15040 | -15040 | -15040 | -15040 | -15040 | -14840 | -14680 | -14510 | -14240 | -13960 | -13960 | -13960 | -13960 | -13960 | -13960 | -13960 | -13960 | -13660 | -13660 | -13660 | -13660 | -13660 | -13660 | -13660 | -13660 | -13660 | -13660 | -13660 | -13660 | -13660 | -13660 | -13560 | -13560 | -13560 | -13260 | -13260 | -13260 | -13260 | -13260 | -13260 | -13260 | -13260 | -12860 | -12580 | -12580 | -12460 | -12460 | -12460 | -12460 | -12460 | -12460 | -12460 | -12460 | -12460 | -12460 | -12460 | -12460 | -12460 | -12460 | -12460 | -12460 | -12460 | -12460 | -12460 | -12460 | -12460 | -12460 | -12460 | -12460 | -12460 | -12460 | -12460 | -12460 | -12460 | -12460 | -12460 | -12460 | -12460 | -12460 | -12460 | -12460 | -12460 | -12460 | -12460 | -12460 | -12460 | -12460 | -12280 | -12180 | -12180 | -11580 | -10880 | 999999999 | 999999999
+Sortie de l'algo NegaScout. Node Index = 2 | Nodes Checked = 7832 | Duree = 1545 ms
+Score du noeud selectionne : 2190 | Threat = -16330
+Gote score = 2190
+Sente score = -2190
+Gote Captured Tokens = ROOK | PAWN
+Sente Captured Tokens = { }
+Turn Duration: 1545 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |  4720 |       |       |       |      
+      |       | -4720 |       |       |       |       |       |      
+ 1150 |       |  -100 |       |       |       |       |       |      
+********** Turn 4 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 5271 | Duree = 13790 ms
+Score du noeud selectionne : -2890 | Threat = 369850
+Gote score = 2190
+Sente score = -2190
+Gote Captured Tokens = ROOK | PAWN
+Sente Captured Tokens = { }
+Turn Duration: 13790 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      | -4720 |       |       |  4720 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 1150 |       |  -100 |       |       |       |       |       |      
+********** Turn 5 Gote Playing **********
+Entree de l'algo NegaScout Gote Turn ? True
+-22210 | -22210 | -22210 | -22210 | -22210 | -22210 | -22210 | -22210 | -22210 | -22210 | -22210 | -22210 | -21910 | -21910 | -21910 | -21910 | -21910 | -21910 | -21910 | -21910 | -21910 | -21910 | -21910 | -21910 | -21910 | -21910 | -21910 | -21910 | -21910 | -21910 | -21910 | -21910 | -21910 | -21550 | -21550 | -21550 | -21430 | -21430 | -21430 | -21190 | -21190 | -21190 | -21150 | -21150 | -21150 | -21070 | -21070 | -21070 | -20950 | -20950 | -20950 | -20910 | -20910 | -20910 | -20910 | -20910 | -20830 | -20830 | -20830 | -20790 | -20790 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20710 | -20530 | -20530 | -20530 | -20530 | -20510 | -20510 | -20510 | -20310 | -18750 | -18670 | -18470 | -18470
+Sortie de l'algo NegaScout. Node Index = 155 | Nodes Checked = 29928 | Duree = 3447 ms
+Score du noeud selectionne : 2650 | Threat = -20530
+Gote score = 2590
+Sente score = -2590
+Gote Captured Tokens = PAWN
+Sente Captured Tokens = { }
+Turn Duration: 3463 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      | -4720 |  1040 |       |  4720 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 1150 |       |  -100 |       |       |       |       |       |      
+********** Turn 6 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 3049 | Duree = 8144 ms
+Score du noeud selectionne : -2650 | Threat = 214260
+Gote score = 2190
+Sente score = -2190
+Gote Captured Tokens = PAWN
+Sente Captured Tokens = { }
+Turn Duration: 8144 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      | -4720 |       |       |       |       |       |       |      
+      |       |  1040 |       |  4720 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 1150 |       |  -100 |       |       |       |       |       |      
+********** Turn 7 Gote Playing **********
+Entree de l'algo NegaScout Gote Turn ? True
+-24150 | -23300 | -22510 | -22210 | -21810 | -21810 | -21810 | -21810 | -21510 | -21510 | -21270 | -21270 | -21270 | -21220 | -21150 | -21150 | -21150 | -20910 | -20910 | -20910 | -20870 | -20870 | -20870 | -20830 | -20790 | -20790 | -20790 | -20630 | -20510 | -20510 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20430 | -20230 | -20230 | -20230 | -20130 | -20130 | -19830 | -19730
+Sortie de l'algo NegaScout. Node Index = 1 | Nodes Checked = 6723 | Duree = 843 ms
+Score du noeud selectionne : 2650 | Threat = -23300
+Gote score = 2650
+Sente score = -2650
+Gote Captured Tokens = PAWN | PAWN
+Sente Captured Tokens = { }
+Turn Duration: 858 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      | -4720 |       |       |       |       |       |       |      
+      |       |       |       |  4720 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 1150 |       |  1300 |       |       |       |       |       |      
+********** Turn 8 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 8725 | Duree = 2262 ms
+Score du noeud selectionne : -3050 | Threat = 466950
+Gote score = 2650
+Sente score = -2650
+Gote Captured Tokens = PAWN | PAWN
+Sente Captured Tokens = { }
+Turn Duration: 2262 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      | -4720 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |  4720 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 1150 |       |  1300 |       |       |       |       |       |      
+********** Turn 9 Gote Playing **********
+Entree de l'algo NegaScout Gote Turn ? True
+-23400 | -23400 | -23240 | -23240 | -23240 | -23240 | -23120 | -23120 | -23120 | -23120 | -23000 | -22920 | -22920 | -22880 | -22880 | -22880 | -22880 | -22880 | -22880 | -22840 | -22840 | -22840 | -22840 | -22720 | -22720 | -22700 | -22700 | -22700 | -22700 | -22560 | -22560 | -22480 | -22480 | -22480 | -22480 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22300 | -22200 | -22200 | -22200 | -22200 | -22200 | -22200 | -22000 | -21200 | -21200 | -21200 | -21200 | -21200 | -21200 | -21200 | -21060 | -21060 | -20360
+Sortie de l'algo NegaScout. Node Index = 81 | Nodes Checked = 24165 | Duree = 2465 ms
+Score du noeud selectionne : 3070 | Threat = -22400
+Gote score = 2650
+Sente score = -2650
+Gote Captured Tokens = PAWN
+Sente Captured Tokens = { }
+Turn Duration: 2465 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      | -4720 |       |       |       |       |       |       |      
+      |       |       |  100  |       |       |       |       |      
+      |       |       |       |  4720 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 1150 |       |  1300 |       |       |       |       |       |      
+********** Turn 10 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 3890 | Duree = 795 ms
+Score du noeud selectionne : -3095 | Threat = 246285
+Gote score = 2650
+Sente score = -2650
+Gote Captured Tokens = PAWN
+Sente Captured Tokens = { }
+Turn Duration: 795 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      | -4720 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |  100  |       |       |       |       |      
+      |       |       |       |  4720 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 1150 |       |  1300 |       |       |       |       |       |      
+********** Turn 11 Gote Playing **********
+Entree de l'algo NegaScout Gote Turn ? True
+-26010 | -23240 | -23240 | -23120 | -23120 | -23000 | -22920 | -22880 | -22840 | -22840 | -22700 | -22700 | -22700 | -22700 | -22560 | -22480 | -22480 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22400 | -22200 | -22200 | -22200 | -22000 | -22000 | -21200 | -21200 | -21200 | -21200 | -21200 | -21200 | -21200 | -21060 | -21060 | -20360
+Sortie de l'algo NegaScout. Node Index = 0 | Nodes Checked = 5296 | Duree = 359 ms
+Score du noeud selectionne : 3070 | Threat = -26010
+Gote score = 3095
+Sente score = -3095
+Gote Captured Tokens = PAWN
+Sente Captured Tokens = { }
+Turn Duration: 359 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      | -4720 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |  420  |  4720 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 1150 |       |  1300 |       |       |       |       |       |      
+********** Turn 12 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 3342 | Duree = 655 ms
+Score du noeud selectionne : -3470 | Threat = 333350
+Gote score = 3070
+Sente score = -3070
+Gote Captured Tokens = PAWN
+Sente Captured Tokens = { }
+Turn Duration: 655 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      | -4720 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |  420  |  4720 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 1150 |       |  1300 |       |       |       |       |       |      
+********** Turn 13 Gote Playing **********
+Entree de l'algo NegaScout Gote Turn ? True
+-26960 | -26960 | -26600 | -26600 | -26240 | -26200 | -26200 | -26060 | -26060 | -26060 | -26010 | -25920 | -25840 | -25840 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25760 | -25560 | -25560 | -25560 | -25560 | -25560 | -25560 | -25360 | -25360 | -24560 | -24560 | -24560 | -24560 | -24560 | -24560 | -24560 | -24420 | -24420 | -23720
+Sortie de l'algo NegaScout. Node Index = 65 | Nodes Checked = 8070 | Duree = 655 ms
+Score du noeud selectionne : 3390 | Threat = -25760
+Gote score = 3070
+Sente score = -3070
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 655 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      | -4720 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 100  |       |       |       |       |       |       |       |      
+      |       |       |  420  |  4720 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 1150 |       |  1300 |       |       |       |       |       |      
+********** Turn 14 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 3478 | Duree = 312 ms
+Score du noeud selectionne : -3645 | Threat = 126990
+Gote score = 3045
+Sente score = -3045
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 312 ms
+      |       |       |       |       |       |       |       |      
+      | -4720 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 100  |       |       |       |       |       |       |       |      
+      |       |       |  420  |  4720 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 1150 |       |  1300 |       |       |       |       |       |      
+********** Turn 15 Gote Playing **********
+Entree de l'algo NegaScout Gote Turn ? True
+-28720 | -26760 | -26160 | -26160 | -25860 | -25860 | -25760 | -25560 | -25560 | -25560 | -25560 | -25560 | -25560 | -25560 | -25560 | -25560 | -25560 | -25560 | -25560 | -25560 | -25560 | -25560 | -25560 | -25560 | -25560 | -25560 | -25360 | -25360 | -25360 | -25160 | -25160 | -24360 | -24360 | -24360 | -24360 | -24360 | -24360 | -24360 | -24220 | -24220 | -23520
+Sortie de l'algo NegaScout. Node Index = 0 | Nodes Checked = 2134 | Duree = 141 ms
+Score du noeud selectionne : 3440 | Threat = -28720
+Gote score = 3440
+Sente score = -3440
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 141 ms
+      |       |       |       |       |       |       |       |      
+      | -4720 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 420  |       |       |  420  |  4720 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 1150 |       |  1300 |       |       |       |       |       |      
+********** Turn 16 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 1398 | Duree = 296 ms
+Score du noeud selectionne : -3890 | Threat = 151195
+Gote score = 3490
+Sente score = -3490
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 296 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      | -4720 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 420  |       |       |  420  |  4720 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 1150 |       |  1300 |       |       |       |       |       |      
+********** Turn 17 Gote Playing **********
+Entree de l'algo NegaScout Gote Turn ? True
+-30320 | -30320 | -29420 | -29420 | -29420 | -29395 | -29370 | -29120 | -29120 | -29120 | -29120 | -29120 | -29120 | -29120 | -29120 | -29120 | -29120 | -29120 | -29120 | -29120 | -29120 | -29120 | -29120 | -29120 | -29120 | -29120 | -28920 | -28920 | -28920 | -28920 | -28920 | -28720 | -28720 | -27920 | -27920 | -27920 | -27920 | -27920 | -27920 | -27920 | -27780 | -27780 | -27080
+Sortie de l'algo NegaScout. Node Index = 1 | Nodes Checked = 2461 | Duree = 172 ms
+Score du noeud selectionne : 3490 | Threat = -30320
+Gote score = 3490
+Sente score = -3490
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 172 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      | -4720 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |  1150 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 420  |       |       |  420  |  4720 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |  1300 |       |       |       |       |       |      
+********** Turn 18 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 3344 | Duree = 764 ms
+Score du noeud selectionne : -4140 | Threat = 193360
+Gote score = 3540
+Sente score = -3540
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 764 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      | -4720 |       |       |       |       |       |       |      
+      |       |       |       |  1150 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 420  |       |       |  420  |  4720 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |  1300 |       |       |       |       |       |      
+********** Turn 19 Gote Playing **********
+Entree de l'algo NegaScout Gote Turn ? True
+-30845 | -30645 | -30645 | -30545 | -30545 | -30545 | -30545 | -30445 | -30445 | -30420 | -30295 | -30270 | -30245 | -30245 | -30245 | -30245 | -30245 | -30245 | -30245 | -30245 | -30245 | -30245 | -30245 | -30245 | -30245 | -30245 | -30245 | -30170 | -29995 | -29995 | -29970 | -29970 | -29970 | -29845 | -29845 | -29645 | -29645 | -29645 | -29645 | -29645 | -29645 | -29645 | -29645 | -29045 | -29045 | -29045 | -29045 | -29045 | -29045 | -29045 | -28905 | -28905 | -28205 | -28205
+Sortie de l'algo NegaScout. Node Index = 51 | Nodes Checked = 4056 | Duree = 312 ms
+Score du noeud selectionne : 3565 | Threat = -28905
+Gote score = 3540
+Sente score = -3540
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 328 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |  1300 |       |       |       |       |       |      
+      | -4720 |       |       |       |       |       |       |      
+      |       |       |       |  1150 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 420  |       |       |  420  |  4720 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+********** Turn 20 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 2770 | Duree = 1763 ms
+Score du noeud selectionne : -4240 | Threat = 189420
+Gote score = 3540
+Sente score = -3540
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 1763 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |  1300 |       |       |       |       |       |      
+-4720 |       |       |       |       |       |       |       |      
+      |       |       |       |  1150 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 420  |       |       |  420  |  4720 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+********** Turn 21 Gote Playing **********
+Entree de l'algo NegaScout Gote Turn ? True
+-20050 | -19450 | -19450 | -19450 | -19250 | -18975 | -18925 | -18875 | -18850 | -18850 | -18850 | -18850 | -18850 | -18850 | -18850 | -18850 | -18850 | -18850 | -18850 | -18850 | -18850 | -18850 | -18850 | -18850 | -18850 | -18850 | -18850 | -18850 | -18850 | -18850 | -18850 | -18725 | -18725 | -18675 | -18675 | -18650 | -18550 | -18550 | -18550 | -18550 | -18550 | -18450 | -18150 | -17750 | -17750 | -17750 | -17750 | -17750 | -17750 | -17750 | -16910 | -16510 | -16210
+Sortie de l'algo NegaScout. Node Index = 3 | Nodes Checked = 9186 | Duree = 733 ms
+Score du noeud selectionne : 3590 | Threat = -19450
+Gote score = 3540
+Sente score = -3540
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 733 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |  1300 |       |       |       |       |       |      
+-4720 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 420  |       |  1150 |  420  |  4720 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+********** Turn 22 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 1021 | Duree = 374 ms
+Score du noeud selectionne : -4365 | Threat = 174155
+Gote score = 3665
+Sente score = -3665
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 374 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |  1300 |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      | -4720 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 420  |       |  1150 |  420  |  4720 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+********** Turn 23 Gote Playing **********
+Entree de l'algo NegaScout Gote Turn ? True
+-31370 | -31370 | -31320 | -31170 | -31170 | -31170 | -31170 | -31170 | -31170 | -31170 | -31170 | -31170 | -31170 | -31170 | -31145 | -31120 | -31120 | -31045 | -30995 | -30970 | -30920 | -30870 | -30770 | -30770 | -30575 | -30470 | -30170 | -30170 | -30170 | -30170 | -30170 | -30170 | -30170 | -29670 | -29670 | -29670 | -29670 | -29670 | -29670 | -29670 | -29530 | -29530 | -28930 | -28930 | -28830 | -28830 | -28730
+Sortie de l'algo NegaScout. Node Index = 3 | Nodes Checked = 3194 | Duree = 406 ms
+Score du noeud selectionne : 999999999 | Threat = -31170
+Gote score = 3665
+Sente score = -3665
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 406 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |  1300 |       |       |       |       |      
+      | -4720 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 420  |       |  1150 |  420  |  4720 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+********** Turn 24 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 4192 | Duree = 2870 ms
+Score du noeud selectionne : -4540 | Threat = 999999999
+Gote score = 3940
+Sente score = -3940
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 2870 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+-4720 |       |       |  1300 |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 420  |       |  1150 |  420  |  4720 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+********** Turn 25 Gote Playing **********
+Entree de l'algo NegaScout Gote Turn ? True
+-19650 | -19450 | -19450 | -19450 | -19450 | -19175 | -19150 | -19150 | -19125 | -19050 | -19050 | -19050 | -19050 | -19050 | -19050 | -19050 | -19050 | -19050 | -19050 | -18925 | -18925 | -18875 | -18875 | -18850 | -18850 | -18850 | -18750 | -18750 | -18750 | -18750 | -18750 | -18750 | -18450 | -18450 | -18450 | -18450 | -18450 | -18450 | -18450 | -18450 | -18450 | -18350 | -18350 | -18350 | -16810 | -16810 | 0
+Sortie de l'algo NegaScout. Node Index = 46 | Nodes Checked = 3079 | Duree = 218 ms
+Score du noeud selectionne : 0 | Threat = 0
+Gote score = 999999999
+Sente score = 999999999
+Gote Captured Tokens = KING
+Sente Captured Tokens = { }
+Turn Duration: 234 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 1300 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 420  |       |  1150 |  420  |  4720 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+Gote won
+Game Duration: 46472 ms

@@ -1,0 +1,7 @@
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\ProofNumberSearch\bin\Debug\SandboxProofNumberSearch.dll
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\ProofNumberSearch\bin\Debug\SandboxProofNumberSearch.pdb
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\ProofNumberSearch\bin\Debug\Tools.dll
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\ProofNumberSearch\bin\Debug\Tools.pdb
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\ProofNumberSearch\obj\x86\Debug\SandboxProofNumberSearch.dll
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\ProofNumberSearch\obj\x86\Debug\SandboxProofNumberSearch.pdb
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\ProofNumberSearch\obj\x86\Debug\ProofNumberSearch.csprojResolveAssemblyReference.cache

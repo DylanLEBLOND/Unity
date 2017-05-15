@@ -1,0 +1,22 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\Game\Managers\_GameManager.cs">
+    <Files>
+      <File FileName="Assets\scripts\Game\Managers\_GameBoard.cs" Line="85" Column="25" />
+      <File FileName="Assets\scripts\Game\Tools\CaptureBench.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\Game\Managers\_GameManager.cs" Line="58" Column="1" />
+      <File FileName="Assets\scripts\Game\Tools\Box.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\Game\Tools\TokenAnimator.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\Data\ShogiData.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\Game\Tools\Node.cs" Line="1877" Column="1" />
+      <File FileName="Assets\scripts\Game\Tools\IntVector2.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\Game\Managers\PlayerHandler.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\Game\Tools\Token.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\Game\AI\AlphaBeta.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

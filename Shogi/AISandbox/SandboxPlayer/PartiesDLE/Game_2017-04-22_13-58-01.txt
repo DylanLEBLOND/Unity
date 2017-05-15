@@ -1,0 +1,50 @@
+********** Gote Algorithm: ProofNumberSearch | Sente Algorithm: Neo AlphaBeta | Depth: 4 **********
+root Gote score = -750
+root Sente score = 750
+root Gote Captured Tokens = { }
+root Sente Captured Tokens = { }
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |  4720 |       |       |       |      
+      |       |       |       | -1040 |       |       |       |      
+      |  890  |       |       |       |       |       |       |      
+ -100 |       |  -100 | -4720 |       |       |       |       |      
+********** Turn 1 Gote Playing **********
+Gote score = -750
+Sente score = 750
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 15 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |  4720 | -1040 |       |       |       |      
+      |  890  |       |       |       |       |       |       |      
+ -100 |       |  -100 | -4720 |       |       |       |       |      
+********** Turn 2 Sente Playing **********
+Entree de l'algo AlphaBeta Gote Turn ? False
+-17300 | -13620 | -13620 | -13620 | -13400 | -13100 | -13100 | -12120 | -11720 | -10520 | -8200 | -8200 | -7900 | -7900 | -7900 | -6820 | -6820 | -4720 | 0 | 999999999 | 999999999 | 999999999
+Sortie de l'algo AlphaBeta. Node Index = 18 | Nodes Checked = 2982 | Duree = 1467 ms
+Score du noeud selectionne : 0 | Threat = 0
+Gote score = -999999999
+Sente score = -999999999
+Gote Captured Tokens = { }
+Sente Captured Tokens = KING
+Turn Duration: 1467 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       | -1040 |       |       |       |       |      
+      |  890  |       |       |       |       |       |       |      
+ -100 |       |  -100 | -4720 |       |       |       |       |      
+Sente won
+Game Duration: 1482 ms

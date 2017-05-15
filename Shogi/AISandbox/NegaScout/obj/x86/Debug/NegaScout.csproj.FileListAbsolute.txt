@@ -1,0 +1,7 @@
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\NegaScout\bin\Debug\SandboxNegaScout.dll
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\NegaScout\bin\Debug\SandboxNegaScout.pdb
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\NegaScout\bin\Debug\Tools.dll
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\NegaScout\bin\Debug\Tools.pdb
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\NegaScout\obj\x86\Debug\SandboxNegaScout.dll
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\NegaScout\obj\x86\Debug\SandboxNegaScout.pdb
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\NegaScout\obj\x86\Debug\NegaScout.csprojResolveAssemblyReference.cache

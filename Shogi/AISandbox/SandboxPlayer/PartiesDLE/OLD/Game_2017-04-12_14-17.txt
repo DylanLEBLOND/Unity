@@ -1,0 +1,841 @@
+********** NegaScout Depth 3 **********"
+root Gote value = -850
+root Sente value = 850
+root Gote Captured Tokens = { }
+root Sente Captured Tokens = { }
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |  4720 |       |       |       |      
+      |       |       |       | -1040 |       |       |       |      
+      |  890  |       |       |       |       |       |       |      
+ -100 |       |  -100 | -4720 |       |       |       |       |      
+********** Turn 1 Gote Playing **********
+Gote value = -350
+Sente value = 350
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 16 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |  4720 |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       | -1040 |       |       |       |      
+      |  890  |       |       |       |       |       |       |      
+ -100 |       |  -100 | -4720 |       |       |       |       |      
+********** Turn 2 Sente Playing **********
+Gote value = -350
+Sente value = 350
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 46 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |  4720 |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  890  |       |       |       |       |       |       |      
+ -100 |       |  -100 | -4720 | -1040 |       |       |       |      
+********** Turn 3 Gote Playing **********
+Gote value = -510
+Sente value = 510
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 47 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |  4720 |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  890  |       |       |       |       |       |       |      
+ -100 |       |  -100 | -4720 | -1040 |       |       |       |      
+********** Turn 4 Sente Playing **********
+Gote value = -510
+Sente value = 510
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 31 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |  4720 |       |       |       |       |       |      
+      |       |       |       | -1040 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  890  |       |       |       |       |       |       |      
+ -100 |       |  -100 | -4720 |       |       |       |       |      
+********** Turn 5 Gote Playing **********
+Gote value = -150
+Sente value = 150
+Gote Captured Tokens = PAWN
+Sente Captured Tokens = { }
+Turn Duration: 16 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |  4720 |       |       |       |       |       |      
+      |       |       |       | -1040 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       |  890  | -4720 |       |       |       |       |      
+********** Turn 6 Sente Playing **********
+Gote value = -410
+Sente value = 410
+Gote Captured Tokens = PAWN
+Sente Captured Tokens = { }
+Turn Duration: 31 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       | -1300 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |  4720 |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       |  890  | -4720 |       |       |       |       |      
+********** Turn 7 Gote Playing **********
+Gote value = -410
+Sente value = 410
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 109 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       | -1300 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |  4720 |       |  100  |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       |  890  | -4720 |       |       |       |       |      
+********** Turn 8 Sente Playing **********
+Gote value = -250
+Sente value = 250
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 47 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       | -1300 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |  4720 |       |  100  |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       |  890  |       | -4720 |       |       |       |      
+********** Turn 9 Gote Playing **********
+Gote value = 10
+Sente value = -10
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 0 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       | -1300 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |  4720 |       |  100  |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |  1150 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       |       |       | -4720 |       |       |       |      
+********** Turn 10 Sente Playing **********
+Gote value = -150
+Sente value = 150
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 16 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       | -1300 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |  4720 |       |  100  |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |  1150 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       |       | -4720 |       |       |       |       |      
+********** Turn 11 Gote Playing **********
+Gote value = 250
+Sente value = -250
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 0 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       | -1300 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |  4720 |       |  100  |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |  1150 |       |       |       |      
+ -100 |       |       | -4720 |       |       |       |       |      
+********** Turn 12 Sente Playing **********
+Gote value = -150
+Sente value = 150
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 0 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       | -1300 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |  4720 |       |  100  |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       | -4720 |       |  1150 |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+********** Turn 13 Gote Playing **********
+Gote value = -150
+Sente value = 150
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 31 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       | -1300 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |  100  |       |       |       |      
+      |  4720 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       | -4720 |       |  1150 |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+********** Turn 14 Sente Playing **********
+Gote value = -650
+Sente value = 650
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 31 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      | -1300 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |  100  |       |       |       |      
+      |  4720 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       | -4720 |       |  1150 |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+********** Turn 15 Gote Playing **********
+Gote value = -310
+Sente value = 310
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 0 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      | -1300 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 4720 |       |       |       |  100  |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       | -4720 |       |  1150 |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+********** Turn 16 Sente Playing **********
+Gote value = -810
+Sente value = 810
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 15 ms
+      |       |       |       |       |       |       |       |      
+-1300 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 4720 |       |       |       |  100  |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       | -4720 |       |  1150 |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+********** Turn 17 Gote Playing **********
+Gote value = -810
+Sente value = 810
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 16 ms
+      |       |       |       |       |       |       |       |      
+-1300 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 1150 |       |       |       |       |       |       |       |      
+ 4720 |       |       |       |  100  |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       | -4720 |       |       |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+********** Turn 18 Sente Playing **********
+Gote value = -850
+Sente value = 850
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 0 ms
+      |       |       |       |       |       |       |       |      
+-1300 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 1150 |       |       |       |       |       |       |       |      
+ 4720 |       |       |       |  100  |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       | -4720 |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+********** Turn 19 Gote Playing **********
+Gote value = -150
+Sente value = 150
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 0 ms
+      |       |       |       |       |       |       |       |      
+-1300 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 1150 |       |       |       |       |       |       |       |      
+      |       |       |       |  100  |       |       |       |      
+      |  4720 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       | -4720 |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+********** Turn 20 Sente Playing **********
+Gote value = -150
+Sente value = 150
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 16 ms
+      |       |       |       |       |       |       |       |      
+-1300 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 1150 |       |       |       |       |       |       |       |      
+      |       |       |       |  100  |       |       |       |      
+      |  4720 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 | -4720 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+********** Turn 21 Gote Playing **********
+Gote value = -150
+Sente value = 150
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 15 ms
+      |       |       |       |       |       |       |       |      
+-1300 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  1150 |       |       |       |       |       |       |      
+      |       |       |       |  100  |       |       |       |      
+      |  4720 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 | -4720 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+********** Turn 22 Sente Playing **********
+Gote value = -250
+Sente value = 250
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 16 ms
+      | -1300 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  1150 |       |       |       |       |       |       |      
+      |       |       |       |  100  |       |       |       |      
+      |  4720 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 | -4720 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+********** Turn 23 Gote Playing **********
+Gote value = -250
+Sente value = 250
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 15 ms
+      | -1300 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  1150 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |  100  |       |       |       |      
+      |  4720 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 | -4720 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+********** Turn 24 Sente Playing **********
+Gote value = -250
+Sente value = 250
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 0 ms
+      | -1300 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  1150 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |  100  |       |       |       |      
+      |  4720 |       |       |       |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+      | -4720 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+********** Turn 25 Gote Playing **********
+Gote value = -250
+Sente value = 250
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 0 ms
+      | -1300 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  1150 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  4720 |       |       |  100  |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+      | -4720 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+********** Turn 26 Sente Playing **********
+Gote value = -250
+Sente value = 250
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 16 ms
+      | -1300 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  1150 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  4720 |       |       |  100  |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+-4720 |       |       |       |       |       |       |       |      
+********** Turn 27 Gote Playing **********
+Gote value = 170
+Sente value = -170
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 16 ms
+      | -1300 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  1150 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  4720 |       |       |       |       |       |       |      
+ -100 |       |       |       |  420  |       |       |       |      
+      |       |       |       |       |       |       |       |      
+-4720 |       |       |       |       |       |       |       |      
+********** Turn 28 Sente Playing **********
+Gote value = 170
+Sente value = -170
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 15 ms
+      | -1300 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  1150 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |  4720 |       |       |       |       |       |       |      
+      |       |       |       |  420  |       |       |       |      
+      |       |       |       |       |       |       |       |      
+-4720 |       |       |       |       |       |       |       |      
+********** Turn 29 Gote Playing **********
+Gote value = 145
+Sente value = -145
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 47 ms
+      | -1300 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  1150 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |  4720 |       |       |       |       |       |       |      
+      |       |       |       |       |  420  |       |       |      
+      |       |       |       |       |       |       |       |      
+-4720 |       |       |       |       |       |       |       |      
+********** Turn 30 Sente Playing **********
+Gote value = 145
+Sente value = -145
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 16 ms
+      | -1300 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  1150 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+      |  4720 |       |       |       |       |       |       |      
+      |       |       |       |       |  420  |       |       |      
+      |       |       |       |       |       |       |       |      
+-4720 |       |       |       |       |       |       |       |      
+********** Turn 31 Gote Playing **********
+Gote value = 145
+Sente value = -145
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 31 ms
+      | -1300 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  1150 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  4720 |       |       |       |  420  |       |       |      
+      |       |       |       |       |       |       |       |      
+-4720 |       |       |       |       |       |       |       |      
+********** Turn 32 Sente Playing **********
+Gote value = 170
+Sente value = -170
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 0 ms
+      | -1300 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  1150 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  4720 |       |       |       |  420  |       |       |      
+      |       |       |       |       |       |       |       |      
+      | -4720 |       |       |       |       |       |       |      
+********** Turn 33 Gote Playing **********
+Gote value = 145
+Sente value = -145
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 47 ms
+      | -1300 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  1150 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  4720 |       |       |       |       |  420  |       |      
+      |       |       |       |       |       |       |       |      
+      | -4720 |       |       |       |       |       |       |      
+********** Turn 34 Sente Playing **********
+Gote value = 170
+Sente value = -170
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 15 ms
+      | -1300 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  1150 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  4720 |       |       |       |       |  420  |       |      
+      |       |       |       |       |       |       |       |      
+      |       | -4720 |       |       |       |       |       |      
+********** Turn 35 Gote Playing **********
+Gote value = 145
+Sente value = -145
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 47 ms
+      | -1300 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  1150 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  4720 |       |       |       |       |       |  420  |      
+      |       |       |       |       |       |       |       |      
+      |       | -4720 |       |       |       |       |       |      
+********** Turn 36 Sente Playing **********
+Gote value = 170
+Sente value = -170
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 0 ms
+      | -1300 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  1150 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  4720 |       |       |       |       |       |  420  |      
+      |       |       | -4720 |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+********** Turn 37 Gote Playing **********
+Gote value = 145
+Sente value = -145
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 47 ms
+      | -1300 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  1150 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  4720 |       |       |       |       |       |       |  420 
+      |       |       | -4720 |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+********** Turn 38 Sente Playing **********
+Gote value = 170
+Sente value = -170
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 15 ms
+      | -1300 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  1150 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  4720 |       |       |       |       |       |       |  420 
+      |       |       |       |       |       |       |       |      
+      |       |       |       | -4720 |       |       |       |      
+********** Turn 39 Gote Playing **********
+Gote value = 270
+Sente value = -270
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 32 ms
+      | -1300 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  1150 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 4720 |       |       |       |       |       |       |       |  420 
+      |       |       |       |       |       |       |       |      
+      |       |       |       | -4720 |       |       |       |      
+********** Turn 40 Sente Playing **********
+Gote value = 170
+Sente value = -170
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 15 ms
+-1300 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  1150 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 4720 |       |       |       |       |       |       |       |  420 
+      |       |       |       |       |       |       |       |      
+      |       |       |       | -4720 |       |       |       |      
+********** Turn 41 Gote Playing **********
+Gote value = 170
+Sente value = -170
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 16 ms
+-1300 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 4720 |       |       |       |       |  1150 |       |       |  420 
+      |       |       |       |       |       |       |       |      
+      |       |       |       | -4720 |       |       |       |      
+********** Turn 42 Sente Playing **********
+Gote value = 145
+Sente value = -145
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 47 ms
+-1300 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 4720 |       |       |       |       |  1150 |       |       |  420 
+      |       |       | -4720 |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+********** Turn 43 Gote Playing **********
+Gote value = 545
+Sente value = -545
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 15 ms
+-1300 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 4720 |       |       |       |  1150 |       |       |       |  420 
+      |       |       | -4720 |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+********** Turn 44 Sente Playing **********
+Gote value = 120
+Sente value = -120
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 0 ms
+-1300 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 4720 |       | -4720 |       |  1150 |       |       |       |  420 
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+********** Turn 45 Gote Playing **********
+Gote value = 520
+Sente value = -520
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 16 ms
+-1300 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+      |       |       |  1150 |       |       |       |       |      
+ 4720 |       | -4720 |       |       |       |       |       |  420 
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+********** Turn 46 Sente Playing **********
+Gote value = 120
+Sente value = -120
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 0 ms
+-1300 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+      |       |       |  1150 |       |       |       |       |      
+ 4720 |       |       |       |       |       |       |       |  420 
+      |       | -4720 |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+********** Turn 47 Gote Playing **********
+Gote value = 520
+Sente value = -520
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 15 ms
+-1300 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 4720 |       |       |  1150 |       |       |       |       |  420 
+      |       | -4720 |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+********** Turn 48 Sente Playing **********
+Gote value = 120
+Sente value = -120
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 0 ms
+-1300 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 4720 |       |       |  1150 |       |       |       |       |  420 
+      |       |       |       |       |       |       |       |      
+      |       | -4720 |       |       |       |       |       |      
+********** Turn 49 Gote Playing **********
+Gote value = 520
+Sente value = -520
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 16 ms
+-1300 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 4720 |       |       |       |       |       |       |       |  420 
+      |       |       |  1150 |       |       |       |       |      
+      |       | -4720 |       |       |       |       |       |      
+********** Turn 50 Sente Playing **********
+Gote value = 95
+Sente value = -95
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 0 ms
+-1300 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 4720 |       |       |       |       |       |       |       |  420 
+      |       |       |  1150 |       |       |       |       |      
+      | -4720 |       |       |       |       |       |       |      
+********** Turn 51 Gote Playing **********
+Gote value = 495
+Sente value = -495
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 0 ms
+-1300 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 4720 |       |       |       |       |       |       |       |  420 
+      |       |  1150 |       |       |       |       |       |      
+      | -4720 |       |       |       |       |       |       |      
+********** Turn 52 Sente Playing **********
+Gote value = 70
+Sente value = -70
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 16 ms
+-1300 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 4720 |       |       |       |       |       |       |       |  420 
+      |       |  1150 |       |       |       |       |       |      
+-4720 |       |       |       |       |       |       |       |      
+********** Turn 53 Gote Playing **********
+Gote value = 470
+Sente value = -470
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 0 ms
+-1300 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 4720 |       |       |       |       |       |       |       |  420 
+      |  1150 |       |       |       |       |       |       |      
+-4720 |       |       |       |       |       |       |       |      
+********** Turn 54 Sente Playing **********
+Gote value = 570
+Sente value = -570
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 0 ms
+      |       |       |       |       |       |       |       |      
+      | -1300 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 4720 |       |       |       |       |       |       |       |  420 
+      |  1150 |       |       |       |       |       |       |      
+-4720 |       |       |       |       |       |       |       |      
+********** Turn 55 Gote Playing **********
+Gote value = 999999999
+Sente value = 999999999
+Gote Captured Tokens = KING
+Sente Captured Tokens = { }
+Turn Duration: 46 ms
+      |       |       |       |       |       |       |       |      
+      | -1300 |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ 4720 |       |       |       |       |       |       |       |  420 
+      |       |       |       |       |       |       |       |      
+ 1150 |       |       |       |       |       |       |       |      
+Gote won
+Game Duration: 1076 ms

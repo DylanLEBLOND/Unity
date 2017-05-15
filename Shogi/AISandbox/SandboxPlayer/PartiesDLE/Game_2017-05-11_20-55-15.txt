@@ -1,0 +1,35 @@
+********** Gote Algorithm: NegaScout | Sente Algorithm: NegaScout | Depth: 4 **********
+root Gote score = -750
+root Sente score = 750
+root Gote Captured Tokens = { }
+root Sente Captured Tokens = { }
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |  4720 |       |       |       |      
+      |       |       |       | -1040 |       |       |       |      
+      |  890  |       |       |       |       |       |       |      
+ -100 |       |  -100 | -4720 |       |       |       |       |      
+********** Turn 1 Sente Playing **********
+Entree de l'algo NegaScout Gote Turn ? False
+-16460 | -12560 | -11280 | -11280 | -10880 | -10880 | -9680 | -9280 | -7360 | -7360 | -7360 | -7060 | -5980 | -5980 | -2900 | -1100 | 0
+Sortie de l'algo NegaScout. Node Index = 16 | Nodes Checked = 3085 | Duree = 1326 ms
+Score du noeud selectionne : 0 | Threat = 0
+Gote score = -999999999
+Sente score = -999999999
+Gote Captured Tokens = { }
+Sente Captured Tokens = KING
+Turn Duration: 1342 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       | -1040 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  890  |       |       |       |       |       |       |      
+ -100 |       |  -100 | -4720 |       |       |       |       |      
+Sente won
+Game Duration: 1342 ms

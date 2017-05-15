@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{73B1AE3A-DA1E-4275-13A5-17204451E2AB}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_0_0;UNITY_5_0;UNITY_5;UNITY_64;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\scripts\AI\AIHandler.cs" />
+     <Compile Include="Assets\scripts\AI\MoveSearchJob.cs" />
+     <Compile Include="Assets\scripts\Data\ShogiData.cs" />
+     <Compile Include="Assets\scripts\GUI\CustomCursor.cs" />
+     <Compile Include="Assets\scripts\GUI\Fading.cs" />
+     <Compile Include="Assets\scripts\GUI\Game\ControlButtons.cs" />
+     <Compile Include="Assets\scripts\GUI\Game\EndOfGame\LostNumber.cs" />
+     <Compile Include="Assets\scripts\GUI\Game\EndOfGame\NumberOfCaptures.cs" />
+     <Compile Include="Assets\scripts\GUI\Game\EndOfGame\NumberOfStrokes.cs" />
+     <Compile Include="Assets\scripts\GUI\Game\EndOfGame\ParachuteDropNumber.cs" />
+     <Compile Include="Assets\scripts\GUI\Game\EndOfGame\PromotionsNumber.cs" />
+     <Compile Include="Assets\scripts\GUI\Game\EndOfGame\ScoreManager.cs" />
+     <Compile Include="Assets\scripts\GUI\Game\EndOfGame\WinnerManager.cs" />
+     <Compile Include="Assets\scripts\GUI\Game\HUD\Scripts\HUD.cs" />
+     <Compile Include="Assets\scripts\GUI\Game\HUD\Scripts\Timer.cs" />
+     <Compile Include="Assets\scripts\GUI\Game\PauseManager.cs" />
+     <Compile Include="Assets\scripts\GUI\Game\UI_Score\Components\PlayerPanel.cs" />
+     <Compile Include="Assets\scripts\GUI\Game\UI_Score\Components\TimePanel.cs" />
+     <Compile Include="Assets\scripts\GUI\Game\UI_Score\UI_Score.cs" />
+     <Compile Include="Assets\scripts\GUI\Game\currentPlayerTextManager.cs" />
+     <Compile Include="Assets\scripts\GUI\Game\selectedTokenManager.cs" />
+     <Compile Include="Assets\scripts\GUI\MainMenu\MainMenuButtons.cs" />
+     <Compile Include="Assets\scripts\GUI\MainMenu\MenuCamControl.cs" />
+     <Compile Include="Assets\scripts\GUI\MainMenu\SavedGamesButton.cs" />
+     <Compile Include="Assets\scripts\GUI\MainMenu\SavedGamesManager.cs" />
+     <Compile Include="Assets\scripts\GUI\MainMenu\SavedScoresButton.cs" />
+     <Compile Include="Assets\scripts\GUI\MainMenu\SavedScoresManager.cs" />
+     <Compile Include="Assets\scripts\GUI\MainMenu\ScoresManager.cs" />
+     <Compile Include="Assets\scripts\GUI\MainMenu\SymbolToggleManager.cs" />
+     <Compile Include="Assets\scripts\Game\Box.cs" />
+     <Compile Include="Assets\scripts\Game\Camera\CameraPivot.cs" />
+     <Compile Include="Assets\scripts\Game\CaptureBench.cs" />
+     <Compile Include="Assets\scripts\Game\CaptureBox.cs" />
+     <Compile Include="Assets\scripts\Game\Redo.cs" />
+     <Compile Include="Assets\scripts\Game\Tokens\Bishop.cs" />
+     <Compile Include="Assets\scripts\Game\Tokens\Gold.cs" />
+     <Compile Include="Assets\scripts\Game\Tokens\Jewel.cs" />
+     <Compile Include="Assets\scripts\Game\Tokens\King.cs" />
+     <Compile Include="Assets\scripts\Game\Tokens\Knight.cs" />
+     <Compile Include="Assets\scripts\Game\Tokens\Lance.cs" />
+     <Compile Include="Assets\scripts\Game\Tokens\Pawn.cs" />
+     <Compile Include="Assets\scripts\Game\Tokens\Rook.cs" />
+     <Compile Include="Assets\scripts\Game\Tokens\Silver.cs" />
+     <Compile Include="Assets\scripts\Game\Tokens\Token.cs" />
+     <Compile Include="Assets\scripts\Game\Undo.cs" />
+     <Compile Include="Assets\scripts\Game\_GameConfig.cs" />
+     <Compile Include="Assets\scripts\Game\_GameManager.cs" />
+     <Compile Include="Assets\scripts\Game\_init.cs" />
+     <Compile Include="Assets\scripts\IAminmax\PlayNode.cs" />
+     <Compile Include="Assets\scripts\IAminmax\PlayTree.cs" />
+     <Compile Include="Assets\scripts\SwapUniqueForPrefab.cs" />
+     <Compile Include="Assets\scripts\Utils\MoveAnimator.cs" />
+     <Compile Include="Assets\scripts\Utils\ShogiUtils.cs" />
+     <Compile Include="Assets\scripts\Utils\ThreadedJob.cs" />
+     <Compile Include="Assets\simulationOptimized\Data.cs" />
+     <Compile Include="Assets\simulationOptimized\Exceptions\SimulationException.cs" />
+     <Compile Include="Assets\simulationOptimized\GameState.cs" />
+     <Compile Include="Assets\simulationOptimized\Shogi.cs" />
+     <Compile Include="Assets\simulationOptimized\Test.cs" />
+     <Compile Include="Assets\simulationOptimized\Token.cs" />
+     <None Include="Assets\scripts\GUI\Game\HUD\README.txt" />
+     <None Include="Assets\shaders\DiffuseSpecular.shader" />
+     <None Include="Assets\shaders\DiffuseNormalSpecular.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

@@ -1,0 +1,12 @@
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\Tools\bin\Debug\Tools.dll
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\Tools\bin\Debug\Tools.pdb
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\Tools\bin\Debug\mscorlib.dll
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\Tools\bin\Debug\fr\mscorlib.resources.dll
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\Tools\bin\Debug\normidna.nlp
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\Tools\bin\Debug\normnfc.nlp
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\Tools\bin\Debug\normnfd.nlp
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\Tools\bin\Debug\normnfkc.nlp
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\Tools\bin\Debug\normnfkd.nlp
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\Tools\obj\Debug\Tools.csprojResolveAssemblyReference.cache
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\Tools\obj\Debug\Tools.dll
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\Tools\obj\Debug\Tools.pdb

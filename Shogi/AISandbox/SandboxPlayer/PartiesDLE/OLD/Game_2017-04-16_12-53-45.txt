@@ -1,0 +1,149 @@
+********** MinMax Depth 4 **********"
+root Gote value = -850
+root Sente value = 850
+root Gote Captured Tokens = { }
+root Sente Captured Tokens = { }
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |  4720 |       |       |       |      
+      |       |       |       | -1040 |       |       |       |      
+      |  890  |       |       |       |       |       |       |      
+ -100 |       |  -100 | -4720 |       |       |       |       |      
+********** Turn 1 Gote Playing **********
+Entree de l'algo MinMax Gote Turn ? True
+-10380 | 10530 | 10530 | 10530 | 10530 | 999999999 | 999999999 | 999999999 | 999999999 | 999999999 | 999999999 | 999999999 | 999999999 | 999999999 | 999999999 | 999999999 | 999999999 | 999999999 | 999999999 | 999999999 | 999999999 | 999999999
+Sortie de l'algo MinMax. Node Index = 0 | Nodes Checked = 13095 | Duree = 9968 ms
+Valeur du noeud selectionne : 1990 | Threat = -10380
+Gote value = 1730
+Sente value = -1730
+Gote Captured Tokens = ROOK
+Sente Captured Tokens = { }
+Turn Duration: 9984 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |  4720 |       |       |       |      
+      |  890  |       |       |       |       |       |       |      
+ -100 |       |  -100 | -4720 |       |       |       |       |      
+********** Turn 2 Sente Playing **********
+Entree de l'algo MinMax Gote Turn ? False
+176580 | 178980 | 179080 | 179080 | 999999999 | 999999999
+Sortie de l'algo MinMax. Node Index = 2 | Nodes Checked = 4880 | Duree = 3775 ms
+Valeur du noeud selectionne : -2790 | Threat = 179080
+Gote value = 1730
+Sente value = -1730
+Gote Captured Tokens = ROOK
+Sente Captured Tokens = { }
+Turn Duration: 3775 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |  4720 |       |       |       |      
+ -100 |  890  |       |       |       |       |       |       |      
+      |       |  -100 | -4720 |       |       |       |       |      
+********** Turn 3 Gote Playing **********
+Entree de l'algo MinMax Gote Turn ? True
+-12940 | -12480 | -12180 | -12180 | -12180 | -12080 | -11940 | -11880 | -11880 | -11880 | -11880 | -11880 | -11880 | -11880 | -11880 | -11880 | -11880 | -11880 | -11500 | -11480 | -11380 | -10980 | -10980 | -10980 | -10980 | -10980 | -10980 | -10880 | -10880 | -10880 | -10880 | -10880 | -10880 | -10880 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10380 | -10300 | -10200 | -10100 | -9900 | -9800 | -8600 | -8300 | -7520 | 999999999 | 999999999
+Sortie de l'algo MinMax. Node Index = 0 | Nodes Checked = 31397 | Duree = 15788 ms
+Valeur du noeud selectionne : 1990 | Threat = -12940
+Gote value = 1990
+Sente value = -1990
+Gote Captured Tokens = ROOK
+Sente Captured Tokens = { }
+Turn Duration: 15788 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |  1150 |       |  4720 |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+      |       |  -100 | -4720 |       |       |       |       |      
+********** Turn 4 Sente Playing **********
+Entree de l'algo MinMax Gote Turn ? False
+208100 | 208800 | 999999999 | 999999999 | 999999999 | 999999999
+Sortie de l'algo MinMax. Node Index = 1 | Nodes Checked = 4957 | Duree = 4102 ms
+Valeur du noeud selectionne : -2790 | Threat = 208800
+Gote value = 1990
+Sente value = -1990
+Gote Captured Tokens = ROOK
+Sente Captured Tokens = { }
+Turn Duration: 4102 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |  1150 |       |  4720 |       |       |       |      
+ -100 |       |  -100 |       |       |       |       |       |      
+      |       |       | -4720 |       |       |       |       |      
+********** Turn 5 Gote Playing **********
+Entree de l'algo MinMax Gote Turn ? True
+-13500 | -13500 | -13200 | -13200 | -13140 | -13140 | -13140 | -12900 | -12900 | -12540 | -12400 | -12400 | -12400 | -12400 | -12400 | -12400 | -12400 | -12340 | -12340 | -12200 | -12200 | -11940 | -11940 | -11940 | -11940 | -11940 | -11940 | -11940 | -11900 | -11900 | -11800 | -11500 | -11500 | -11500 | -11500 | -11500 | -11500 | -11500 | -11120 | -11000 | -11000 | -11000 | -11000 | -11000 | -11000 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10900 | -10700 | -10620 | -10320 | -10300 | -9820 | -8820 | 999999999 | 999999999
+Sortie de l'algo MinMax. Node Index = 0 | Nodes Checked = 31712 | Duree = 27550 ms
+Valeur du noeud selectionne : 999999999 | Threat = -13500
+Gote value = 2790
+Sente value = -2790
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 27566 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |  1150 |       |  4720 |       |       |       |      
+ -100 |       |  -100 |       |       |       |       |       |      
+      |  1040 |       | -4720 |       |       |       |       |      
+********** Turn 6 Sente Playing **********
+Entree de l'algo MinMax Gote Turn ? False
+999999999 | 999999999 | 999999999 | 999999999 | 999999999 | 999999999
+Sortie de l'algo MinMax. Node Index = 1 | Nodes Checked = 3601 | Duree = 4493 ms
+Valeur du noeud selectionne : -710 | Threat = 999999999
+Gote value = 750
+Sente value = -750
+Gote Captured Tokens = { }
+Sente Captured Tokens = BISHOP
+Turn Duration: 4508 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |  -100 |       |  4720 |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+      |  1040 |       | -4720 |       |       |       |       |      
+********** Turn 7 Gote Playing **********
+Entree de l'algo MinMax Gote Turn ? True
+-54050 | -53450 | -53450 | -52250 | -52050 | -51650 | -50930 | -49590 | -29350 | -28270 | -12830 | -11030 | 0 | 0 | 8750 | 9650 | 10550 | 10550 | 10550 | 10550 | 10550 | 10550 | 999999999 | 999999999
+Sortie de l'algo MinMax. Node Index = 12 | Nodes Checked = 20808 | Duree = 17722 ms
+Valeur du noeud selectionne : 0 | Threat = 0
+Gote value = 999999999
+Sente value = 999999999
+Gote Captured Tokens = KING
+Sente Captured Tokens = BISHOP
+Turn Duration: 17738 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |  -100 |       |  4720 |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+      |       |       |  1040 |       |       |       |       |      
+Gote won
+Game Duration: 83461 ms

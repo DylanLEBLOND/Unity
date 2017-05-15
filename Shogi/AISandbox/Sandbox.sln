@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools", "Tools\Tools.csproj", "{BDE76FE3-922F-4DBF-BA3B-7975A3B64863}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandboxPlayer", "SandboxPlayer\SandboxPlayer.csproj", "{BE99B831-F9FB-4E41-BFF8-A85351074782}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphaBeta", "AlphaBeta\AlphaBeta.csproj", "{AD986D13-762A-4D39-AA9C-C327F310A811}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NegaScout", "NegaScout\NegaScout.csproj", "{C3B9EA2D-4E14-440F-AF68-4B60B6BD46F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProofNumberSearch", "ProofNumberSearch\ProofNumberSearch.csproj", "{7E381FC4-CB97-4347-A25C-E2E847D92B06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinMax", "MinMax\MinMax.csproj", "{19CD739A-5679-4046-B825-71DDE495DA4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonteCarlo", "MonteCarlo\MonteCarlo.csproj", "{B811A677-607D-432D-8F14-364629733578}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19CD739A-5679-4046-B825-71DDE495DA4D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{19CD739A-5679-4046-B825-71DDE495DA4D}.Debug|x86.Build.0 = Debug|Any CPU
+		{19CD739A-5679-4046-B825-71DDE495DA4D}.Release|x86.ActiveCfg = Release|Any CPU
+		{19CD739A-5679-4046-B825-71DDE495DA4D}.Release|x86.Build.0 = Release|Any CPU
+		{7E381FC4-CB97-4347-A25C-E2E847D92B06}.Debug|x86.ActiveCfg = Debug|x86
+		{7E381FC4-CB97-4347-A25C-E2E847D92B06}.Debug|x86.Build.0 = Debug|x86
+		{7E381FC4-CB97-4347-A25C-E2E847D92B06}.Release|x86.ActiveCfg = Release|x86
+		{7E381FC4-CB97-4347-A25C-E2E847D92B06}.Release|x86.Build.0 = Release|x86
+		{AD986D13-762A-4D39-AA9C-C327F310A811}.Debug|x86.ActiveCfg = Debug|x86
+		{AD986D13-762A-4D39-AA9C-C327F310A811}.Debug|x86.Build.0 = Debug|x86
+		{AD986D13-762A-4D39-AA9C-C327F310A811}.Release|x86.ActiveCfg = Release|x86
+		{AD986D13-762A-4D39-AA9C-C327F310A811}.Release|x86.Build.0 = Release|x86
+		{B811A677-607D-432D-8F14-364629733578}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B811A677-607D-432D-8F14-364629733578}.Debug|x86.Build.0 = Debug|Any CPU
+		{B811A677-607D-432D-8F14-364629733578}.Release|x86.ActiveCfg = Release|Any CPU
+		{B811A677-607D-432D-8F14-364629733578}.Release|x86.Build.0 = Release|Any CPU
+		{BDE76FE3-922F-4DBF-BA3B-7975A3B64863}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BDE76FE3-922F-4DBF-BA3B-7975A3B64863}.Debug|x86.Build.0 = Debug|Any CPU
+		{BDE76FE3-922F-4DBF-BA3B-7975A3B64863}.Release|x86.ActiveCfg = Release|Any CPU
+		{BDE76FE3-922F-4DBF-BA3B-7975A3B64863}.Release|x86.Build.0 = Release|Any CPU
+		{BE99B831-F9FB-4E41-BFF8-A85351074782}.Debug|x86.ActiveCfg = Debug|x86
+		{BE99B831-F9FB-4E41-BFF8-A85351074782}.Debug|x86.Build.0 = Debug|x86
+		{BE99B831-F9FB-4E41-BFF8-A85351074782}.Release|x86.ActiveCfg = Release|x86
+		{BE99B831-F9FB-4E41-BFF8-A85351074782}.Release|x86.Build.0 = Release|x86
+		{C3B9EA2D-4E14-440F-AF68-4B60B6BD46F8}.Debug|x86.ActiveCfg = Debug|x86
+		{C3B9EA2D-4E14-440F-AF68-4B60B6BD46F8}.Debug|x86.Build.0 = Debug|x86
+		{C3B9EA2D-4E14-440F-AF68-4B60B6BD46F8}.Release|x86.ActiveCfg = Release|x86
+		{C3B9EA2D-4E14-440F-AF68-4B60B6BD46F8}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal

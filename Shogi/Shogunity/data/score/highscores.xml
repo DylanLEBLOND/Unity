@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<ArrayOfScore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Score>
+    <name>Player 1</name>
+    <score>1160</score>
+    <time>04:00</time>
+    <moves>52</moves>
+  </Score>
+  <Score>
+    <name>Player 1</name>
+    <score>1360</score>
+    <time>00:32</time>
+    <moves>21</moves>
+  </Score>
+  <Score>
+    <name>Player 1</name>
+    <score>1540</score>
+    <time>04:50</time>
+    <moves>91</moves>
+  </Score>
+  <Score>
+    <name>Player 1</name>
+    <score>1280</score>
+    <time>07:05</time>
+    <moves>38</moves>
+  </Score>
+  <Score>
+    <name>Player 1</name>
+    <score>1080</score>
+    <time>03:44</time>
+    <moves>61</moves>
+  </Score>
+  <Score>
+    <name>Player 1</name>
+    <score>2160</score>
+    <time>11:17</time>
+    <moves>172</moves>
+  </Score>
+  <Score>
+    <name>Player 1</name>
+    <score>1210</score>
+    <time>00:53</time>
+    <moves>13</moves>
+  </Score>
+  <Score>
+    <name>Player 1</name>
+    <score>2020</score>
+    <time>05:38</time>
+    <moves>82</moves>
+  </Score>
+  <Score>
+    <name>Player 1</name>
+    <score>1070</score>
+    <time>01:17</time>
+    <moves>26</moves>
+  </Score>
+  <Score>
+    <name>Player 1</name>
+    <score>1000</score>
+    <time>02:37</time>
+    <moves>23</moves>
+  </Score>
+  <Score>
+    <name>Player 1</name>
+    <score>1370</score>
+    <time>03:10</time>
+    <moves>55</moves>
+  </Score>
+  <Score>
+    <name>Player 1</name>
+    <score>7190</score>
+    <time>04:36</time>
+    <moves>132</moves>
+  </Score>
+  <Score>
+    <name>Player 1</name>
+    <score>7200</score>
+    <time>01:37</time>
+    <moves>61</moves>
+  </Score>
+  <Score>
+    <name>Player 1</name>
+    <score>7390</score>
+    <time>03:57</time>
+    <moves>90</moves>
+  </Score>
+  <Score>
+    <name>Player 1</name>
+    <score>9210</score>
+    <time>04:59</time>
+    <moves>83</moves>
+  </Score>
+  <Score>
+    <name>Player 1</name>
+    <score>8020</score>
+    <time>02:11</time>
+    <moves>78</moves>
+  </Score>
+  <Score>
+    <name>Player 1</name>
+    <score>6560</score>
+    <time>01:28</time>
+    <moves>63</moves>
+  </Score>
+  <Score>
+    <name>Player 1</name>
+    <score>8400</score>
+    <time>04:27</time>
+    <moves>104</moves>
+  </Score>
+  <Score>
+    <name>Player 1</name>
+    <score>5820</score>
+    <time>01:44</time>
+    <moves>31</moves>
+  </Score>
+  <Score>
+    <name>Player 1</name>
+    <score>4630</score>
+    <time>00:20</time>
+    <moves>13</moves>
+  </Score>
+  <Score>
+    <name>Player 1</name>
+    <score>4200</score>
+    <time>00:33</time>
+    <moves>14</moves>
+  </Score>
+</ArrayOfScore>

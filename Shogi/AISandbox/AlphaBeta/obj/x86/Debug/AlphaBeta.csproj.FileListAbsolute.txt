@@ -1,0 +1,7 @@
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\AlphaBeta\bin\Debug\SandboxAlphaBeta.dll
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\AlphaBeta\bin\Debug\SandboxAlphaBeta.pdb
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\AlphaBeta\bin\Debug\Tools.dll
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\AlphaBeta\bin\Debug\Tools.pdb
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\AlphaBeta\obj\x86\Debug\AlphaBeta.csprojResolveAssemblyReference.cache
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\AlphaBeta\obj\x86\Debug\SandboxAlphaBeta.dll
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\AlphaBeta\obj\x86\Debug\SandboxAlphaBeta.pdb

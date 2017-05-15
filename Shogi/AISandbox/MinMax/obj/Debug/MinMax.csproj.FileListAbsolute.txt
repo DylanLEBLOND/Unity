@@ -1,0 +1,14 @@
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MinMax\bin\Debug\MinMax.dll
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MinMax\bin\Debug\MinMax.pdb
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MinMax\bin\Debug\mscorlib.dll
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MinMax\bin\Debug\Tools.dll
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MinMax\bin\Debug\Tools.pdb
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MinMax\bin\Debug\fr\mscorlib.resources.dll
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MinMax\bin\Debug\normidna.nlp
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MinMax\bin\Debug\normnfc.nlp
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MinMax\bin\Debug\normnfd.nlp
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MinMax\bin\Debug\normnfkc.nlp
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MinMax\bin\Debug\normnfkd.nlp
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MinMax\obj\Debug\MinMax.dll
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MinMax\obj\Debug\MinMax.pdb
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MinMax\obj\Debug\MinMax.csprojResolveAssemblyReference.cache

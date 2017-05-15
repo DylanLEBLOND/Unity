@@ -1,0 +1,17 @@
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\SandboxPlayer\bin\Debug\SandboxPlayer.exe
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\SandboxPlayer\bin\Debug\SandboxPlayer.pdb
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\SandboxPlayer\bin\Debug\MinMax.dll
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\SandboxPlayer\bin\Debug\MonteCarlo.dll
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\SandboxPlayer\bin\Debug\SandboxAlphaBeta.dll
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\SandboxPlayer\bin\Debug\SandboxNegaScout.dll
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\SandboxPlayer\bin\Debug\SandboxProofNumberSearch.dll
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\SandboxPlayer\bin\Debug\Tools.dll
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\SandboxPlayer\bin\Debug\Tools.pdb
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\SandboxPlayer\bin\Debug\MinMax.pdb
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\SandboxPlayer\bin\Debug\MonteCarlo.pdb
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\SandboxPlayer\bin\Debug\SandboxAlphaBeta.pdb
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\SandboxPlayer\bin\Debug\SandboxNegaScout.pdb
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\SandboxPlayer\bin\Debug\SandboxProofNumberSearch.pdb
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\SandboxPlayer\obj\x86\Debug\SandboxPlayer.csprojResolveAssemblyReference.cache
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\SandboxPlayer\obj\x86\Debug\SandboxPlayer.exe
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\SandboxPlayer\obj\x86\Debug\SandboxPlayer.pdb

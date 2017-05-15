@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSave xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="2" playerName="Player 1" playerMovesCount="1" date="08/04/15" time="00:01" fileName="GameSave">
+  <moves>
+    <Move playerName="Player 1" tokenID="2" startCoordX="1" startCoordY="2" destinationCoordX="1" destinationCoordY="3" isPromoted="false" />
+  </moves>
+</GameSave>

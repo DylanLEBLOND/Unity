@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGameSave xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GameSave id="1" playerName="Player 1" playerMovesCount="1" date="23/04/15" time="00:01" fileName="data/save/GameSave.xml" gameMode="PLAYER_VS_AI">
+    <moves>
+      <Move playerName="Player 1" tokenID="4" startCoordX="4" startCoordY="2" destinationCoordX="4" destinationCoordY="3" isPromoted="false" />
+    </moves>
+  </GameSave>
+  <GameSave id="2" playerName="Player 1" playerMovesCount="3" date="03/05/15" time="00:10" fileName="data/save/GameSave.xml" gameMode="PLAYER_VS_AI">
+    <moves>
+      <Move playerName="Player 1" tokenID="4" startCoordX="4" startCoordY="2" destinationCoordX="4" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="AI" tokenID="38" startCoordX="0" startCoordY="8" destinationCoordX="0" destinationCoordY="7" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="4" startCoordX="4" startCoordY="3" destinationCoordX="4" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="AI" tokenID="34" startCoordX="2" startCoordY="8" destinationCoordX="3" destinationCoordY="7" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="1" startCoordX="1" startCoordY="2" destinationCoordX="1" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="AI" tokenID="32" startCoordX="3" startCoordY="8" destinationCoordX="4" destinationCoordY="7" isPromoted="false" />
+    </moves>
+  </GameSave>
+  <GameSave id="0" playerName="Player 1" playerMovesCount="7" date="03/05/15" time="00:19" fileName="data/save/GameSave.xml" gameMode="PLAYER_VS_PLAYER">
+    <moves>
+      <Move playerName="Player 1" tokenID="4" startCoordX="4" startCoordY="2" destinationCoordX="4" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="22" startCoordX="2" startCoordY="6" destinationCoordX="2" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="6" startCoordX="6" startCoordY="2" destinationCoordX="6" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="22" startCoordX="2" startCoordY="5" destinationCoordX="2" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="6" startCoordX="6" startCoordY="3" destinationCoordX="6" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="22" startCoordX="2" startCoordY="4" destinationCoordX="2" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="6" startCoordX="6" startCoordY="4" destinationCoordX="6" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="23" startCoordX="3" startCoordY="6" destinationCoordX="3" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="4" startCoordX="4" startCoordY="3" destinationCoordX="4" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="23" startCoordX="3" startCoordY="5" destinationCoordX="3" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="6" startCoordX="6" startCoordY="5" destinationCoordX="6" destinationCoordY="6" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="26" startCoordX="6" startCoordY="6" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="6" startCoordX="6" startCoordY="6" destinationCoordX="6" destinationCoordY="6" isPromoted="true" />
+      <Move playerName="GUEST" tokenID="20" startCoordX="0" startCoordY="6" destinationCoordX="0" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="5" startCoordX="5" startCoordY="2" destinationCoordX="5" destinationCoordY="3" isPromoted="false" />
+    </moves>
+  </GameSave>
+  <GameSave id="3" playerName="Player 1" playerMovesCount="1" date="04/05/15" time="00:00" fileName="data/save/GameSave.xml" gameMode="PLAYER_VS_PLAYER">
+    <moves>
+      <Move playerName="Player 1" tokenID="3" startCoordX="3" startCoordY="2" destinationCoordX="3" destinationCoordY="3" isPromoted="false" />
+    </moves>
+  </GameSave>
+  <GameSave id="6" playerName="Presentation" playerMovesCount="15" date="05/05/15" time="01:55" fileName="data/save/GameSave.xml" gameMode="PLAYER_VS_AI">
+    <moves>
+      <Move playerName="Presentation" tokenID="3" startCoordX="3" startCoordY="2" destinationCoordX="3" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="AI" tokenID="31" startCoordX="5" startCoordY="8" destinationCoordX="6" destinationCoordY="7" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="2" startCoordX="2" startCoordY="2" destinationCoordX="2" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="AI" tokenID="29" startCoordX="1" startCoordY="7" destinationCoordX="4" destinationCoordY="7" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="15" startCoordX="1" startCoordY="0" destinationCoordX="2" destinationCoordY="2" isPromoted="false" />
+      <Move playerName="AI" tokenID="39" startCoordX="4" startCoordY="8" destinationCoordX="3" destinationCoordY="7" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="15" startCoordX="2" startCoordY="2" destinationCoordX="1" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="AI" tokenID="22" startCoordX="2" startCoordY="6" destinationCoordX="2" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="15" startCoordX="1" startCoordY="4" destinationCoordX="0" destinationCoordY="6" isPromoted="false" />
+      <Move playerName="AI" tokenID="20" startCoordX="0" startCoordY="6" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="15" startCoordX="0" startCoordY="6" destinationCoordX="0" destinationCoordY="6" isPromoted="true" />
+      <Move playerName="AI" tokenID="36" startCoordX="1" startCoordY="8" destinationCoordX="0" destinationCoordY="6" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="15" startCoordX="0" startCoordY="6" destinationCoordX="-100" destinationCoordY="-100" isPromoted="true" />
+      <Move playerName="Presentation" tokenID="3" startCoordX="3" startCoordY="3" destinationCoordX="3" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="AI" tokenID="15" startCoordX="-100" startCoordY="-100" destinationCoordX="4" destinationCoordY="8" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="3" startCoordX="3" startCoordY="4" destinationCoordX="3" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="AI" tokenID="23" startCoordX="3" startCoordY="6" destinationCoordX="3" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="3" startCoordX="3" startCoordY="5" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="20" startCoordX="-100" startCoordY="-100" destinationCoordX="3" destinationCoordY="2" isPromoted="false" />
+      <Move playerName="AI" tokenID="3" startCoordX="-100" startCoordY="-100" destinationCoordX="0" destinationCoordY="7" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="10" startCoordX="1" startCoordY="1" destinationCoordX="4" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="AI" tokenID="26" startCoordX="6" startCoordY="6" destinationCoordX="6" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="10" startCoordX="4" startCoordY="4" destinationCoordX="3" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="AI" tokenID="23" startCoordX="3" startCoordY="5" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="AI" tokenID="24" startCoordX="4" startCoordY="6" destinationCoordX="4" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="10" startCoordX="3" startCoordY="5" destinationCoordX="0" destinationCoordY="8" isPromoted="false" />
+      <Move playerName="AI" tokenID="38" startCoordX="0" startCoordY="8" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="10" startCoordX="0" startCoordY="8" destinationCoordX="0" destinationCoordY="8" isPromoted="true" />
+      <Move playerName="AI" tokenID="30" startCoordX="7" startCoordY="7" destinationCoordX="0" destinationCoordY="0" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="17" startCoordX="0" startCoordY="0" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="AI" tokenID="30" startCoordX="0" startCoordY="0" destinationCoordX="0" destinationCoordY="0" isPromoted="true" />
+      <Move playerName="Presentation" tokenID="10" startCoordX="0" startCoordY="8" destinationCoordX="0" destinationCoordY="7" isPromoted="true" />
+      <Move playerName="AI" tokenID="3" startCoordX="0" startCoordY="7" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="AI" tokenID="36" startCoordX="0" startCoordY="6" destinationCoordX="1" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="10" startCoordX="0" startCoordY="7" destinationCoordX="1" destinationCoordY="6" isPromoted="true" />
+      <Move playerName="AI" tokenID="21" startCoordX="1" startCoordY="6" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="AI" tokenID="17" startCoordX="-100" startCoordY="-100" destinationCoordX="4" destinationCoordY="6" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="10" startCoordX="1" startCoordY="6" destinationCoordX="2" destinationCoordY="5" isPromoted="true" />
+      <Move playerName="AI" tokenID="22" startCoordX="2" startCoordY="5" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="AI" tokenID="29" startCoordX="4" startCoordY="7" destinationCoordX="5" destinationCoordY="7" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="10" startCoordX="2" startCoordY="5" destinationCoordX="1" destinationCoordY="4" isPromoted="true" />
+      <Move playerName="AI" tokenID="36" startCoordX="1" startCoordY="4" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="AI" tokenID="25" startCoordX="5" startCoordY="6" destinationCoordX="5" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="10" startCoordX="1" startCoordY="4" destinationCoordX="1" destinationCoordY="5" isPromoted="true" />
+      <Move playerName="AI" tokenID="39" startCoordX="3" startCoordY="7" destinationCoordX="4" destinationCoordY="7" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="38" startCoordX="-100" startCoordY="-100" destinationCoordX="7" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="AI" tokenID="15" startCoordX="4" startCoordY="8" destinationCoordX="3" destinationCoordY="6" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="38" startCoordX="7" startCoordY="3" destinationCoordX="7" destinationCoordY="6" isPromoted="false" />
+      <Move playerName="AI" tokenID="27" startCoordX="7" startCoordY="6" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="38" startCoordX="7" startCoordY="6" destinationCoordX="7" destinationCoordY="6" isPromoted="true" />
+      <Move playerName="AI" tokenID="31" startCoordX="6" startCoordY="7" destinationCoordX="7" destinationCoordY="6" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="38" startCoordX="7" startCoordY="6" destinationCoordX="-100" destinationCoordY="-100" isPromoted="true" />
+      <Move playerName="Presentation" tokenID="36" startCoordX="-100" startCoordY="-100" destinationCoordX="8" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="AI" tokenID="31" startCoordX="7" startCoordY="6" destinationCoordX="7" destinationCoordY="5" isPromoted="false" />
+    </moves>
+  </GameSave>
+  <GameSave id="7" playerName="Player 1" playerMovesCount="2" date="05/05/15" time="00:15" fileName="data/save/GameSave.xml" gameMode="PLAYER_VS_AI">
+    <moves>
+      <Move playerName="Player 1" tokenID="3" startCoordX="3" startCoordY="2" destinationCoordX="3" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="AI" tokenID="29" startCoordX="1" startCoordY="7" destinationCoordX="6" destinationCoordY="7" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="4" startCoordX="4" startCoordY="2" destinationCoordX="4" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="AI" tokenID="32" startCoordX="3" startCoordY="8" destinationCoordX="2" destinationCoordY="7" isPromoted="false" />
+    </moves>
+  </GameSave>
+  <GameSave id="4" playerName="Presentation" playerMovesCount="49" date="05/05/15" time="08:44" fileName="data/save/GameSave.xml" gameMode="PLAYER_VS_AI">
+    <moves>
+      <Move playerName="Presentation" tokenID="6" startCoordX="6" startCoordY="2" destinationCoordX="6" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="AI" tokenID="37" startCoordX="8" startCoordY="8" destinationCoordX="8" destinationCoordY="7" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="2" startCoordX="2" startCoordY="2" destinationCoordX="2" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="AI" tokenID="39" startCoordX="4" startCoordY="8" destinationCoordX="5" destinationCoordY="7" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="10" startCoordX="1" startCoordY="1" destinationCoordX="3" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="AI" tokenID="32" startCoordX="3" startCoordY="8" destinationCoordX="3" destinationCoordY="7" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="15" startCoordX="1" startCoordY="0" destinationCoordX="2" destinationCoordY="2" isPromoted="false" />
+      <Move playerName="AI" tokenID="28" startCoordX="8" startCoordY="6" destinationCoordX="8" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="15" startCoordX="2" startCoordY="2" destinationCoordX="1" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="AI" tokenID="22" startCoordX="2" startCoordY="6" destinationCoordX="2" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="10" startCoordX="3" startCoordY="3" destinationCoordX="1" destinationCoordY="1" isPromoted="false" />
+      <Move playerName="AI" tokenID="20" startCoordX="0" startCoordY="6" destinationCoordX="0" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="16" startCoordX="7" startCoordY="0" destinationCoordX="6" destinationCoordY="2" isPromoted="false" />
+      <Move playerName="AI" tokenID="36" startCoordX="1" startCoordY="8" destinationCoordX="2" destinationCoordY="6" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="15" startCoordX="1" startCoordY="4" destinationCoordX="2" destinationCoordY="6" isPromoted="false" />
+      <Move playerName="AI" tokenID="36" startCoordX="2" startCoordY="6" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="15" startCoordX="2" startCoordY="6" destinationCoordX="2" destinationCoordY="6" isPromoted="true" />
+      <Move playerName="AI" tokenID="32" startCoordX="3" startCoordY="7" destinationCoordX="2" destinationCoordY="6" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="15" startCoordX="2" startCoordY="6" destinationCoordX="-100" destinationCoordY="-100" isPromoted="true" />
+      <Move playerName="Presentation" tokenID="36" startCoordX="-100" startCoordY="-100" destinationCoordX="2" destinationCoordY="2" isPromoted="false" />
+      <Move playerName="AI" tokenID="15" startCoordX="-100" startCoordY="-100" destinationCoordX="4" destinationCoordY="7" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="36" startCoordX="2" startCoordY="2" destinationCoordX="1" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="AI" tokenID="32" startCoordX="2" startCoordY="6" destinationCoordX="1" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="36" startCoordX="1" startCoordY="4" destinationCoordX="2" destinationCoordY="6" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="36" startCoordX="2" startCoordY="6" destinationCoordX="2" destinationCoordY="6" isPromoted="true" />
+      <Move playerName="AI" tokenID="29" startCoordX="1" startCoordY="7" destinationCoordX="0" destinationCoordY="7" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="36" startCoordX="2" startCoordY="6" destinationCoordX="3" destinationCoordY="6" isPromoted="true" />
+      <Move playerName="AI" tokenID="23" startCoordX="3" startCoordY="6" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="AI" tokenID="32" startCoordX="1" startCoordY="5" destinationCoordX="1" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="16" startCoordX="6" startCoordY="2" destinationCoordX="5" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="AI" tokenID="34" startCoordX="2" startCoordY="8" destinationCoordX="3" destinationCoordY="7" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="36" startCoordX="3" startCoordY="6" destinationCoordX="3" destinationCoordY="7" isPromoted="true" />
+      <Move playerName="AI" tokenID="34" startCoordX="3" startCoordY="7" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="AI" tokenID="29" startCoordX="0" startCoordY="7" destinationCoordX="3" destinationCoordY="7" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="36" startCoordX="3" startCoordY="7" destinationCoordX="-100" destinationCoordY="-100" isPromoted="true" />
+      <Move playerName="Presentation" tokenID="8" startCoordX="8" startCoordY="2" destinationCoordX="8" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="AI" tokenID="36" startCoordX="-100" startCoordY="-100" destinationCoordX="6" destinationCoordY="7" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="7" startCoordX="7" startCoordY="2" destinationCoordX="7" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="AI" tokenID="29" startCoordX="3" startCoordY="7" destinationCoordX="3" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="16" startCoordX="5" startCoordY="4" destinationCoordX="4" destinationCoordY="6" isPromoted="false" />
+      <Move playerName="AI" tokenID="24" startCoordX="4" startCoordY="6" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="16" startCoordX="4" startCoordY="6" destinationCoordX="4" destinationCoordY="6" isPromoted="true" />
+      <Move playerName="AI" tokenID="39" startCoordX="5" startCoordY="7" destinationCoordX="4" destinationCoordY="6" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="16" startCoordX="4" startCoordY="6" destinationCoordX="-100" destinationCoordY="-100" isPromoted="true" />
+      <Move playerName="Presentation" tokenID="34" startCoordX="-100" startCoordY="-100" destinationCoordX="4" destinationCoordY="1" isPromoted="false" />
+      <Move playerName="AI" tokenID="16" startCoordX="-100" startCoordY="-100" destinationCoordX="3" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="14" startCoordX="6" startCoordY="0" destinationCoordX="6" destinationCoordY="1" isPromoted="false" />
+      <Move playerName="AI" tokenID="16" startCoordX="3" startCoordY="5" destinationCoordX="2" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="2" startCoordX="2" startCoordY="3" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="24" startCoordX="-100" startCoordY="-100" destinationCoordX="2" destinationCoordY="2" isPromoted="false" />
+      <Move playerName="AI" tokenID="2" startCoordX="-100" startCoordY="-100" destinationCoordX="3" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="24" startCoordX="2" startCoordY="2" destinationCoordX="2" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="AI" tokenID="16" startCoordX="2" startCoordY="3" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="AI" tokenID="32" startCoordX="1" startCoordY="4" destinationCoordX="2" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="24" startCoordX="2" startCoordY="3" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="23" startCoordX="-100" startCoordY="-100" destinationCoordX="2" destinationCoordY="2" isPromoted="false" />
+      <Move playerName="AI" tokenID="32" startCoordX="2" startCoordY="3" destinationCoordX="2" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="16" startCoordX="-100" startCoordY="-100" destinationCoordX="6" destinationCoordY="2" isPromoted="false" />
+      <Move playerName="AI" tokenID="24" startCoordX="-100" startCoordY="-100" destinationCoordX="4" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="16" startCoordX="6" startCoordY="2" destinationCoordX="7" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="AI" tokenID="27" startCoordX="7" startCoordY="6" destinationCoordX="7" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="16" startCoordX="7" startCoordY="4" destinationCoordX="6" destinationCoordY="6" isPromoted="false" />
+      <Move playerName="AI" tokenID="26" startCoordX="6" startCoordY="6" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="16" startCoordX="6" startCoordY="6" destinationCoordX="6" destinationCoordY="6" isPromoted="true" />
+      <Move playerName="AI" tokenID="30" startCoordX="7" startCoordY="7" destinationCoordX="6" destinationCoordY="6" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="16" startCoordX="6" startCoordY="6" destinationCoordX="-100" destinationCoordY="-100" isPromoted="true" />
+      <Move playerName="Presentation" tokenID="0" startCoordX="0" startCoordY="2" destinationCoordX="0" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="AI" tokenID="16" startCoordX="-100" startCoordY="-100" destinationCoordX="5" destinationCoordY="7" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="1" startCoordX="1" startCoordY="2" destinationCoordX="1" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="AI" tokenID="32" startCoordX="2" startCoordY="4" destinationCoordX="1" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="1" startCoordX="1" startCoordY="3" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="26" startCoordX="-100" startCoordY="-100" destinationCoordX="1" destinationCoordY="2" isPromoted="false" />
+      <Move playerName="AI" tokenID="32" startCoordX="1" startCoordY="3" destinationCoordX="1" destinationCoordY="2" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="26" startCoordX="1" startCoordY="2" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="10" startCoordX="1" startCoordY="1" destinationCoordX="0" destinationCoordY="2" isPromoted="false" />
+      <Move playerName="AI" tokenID="26" startCoordX="-100" startCoordY="-100" destinationCoordX="6" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="5" startCoordX="5" startCoordY="2" destinationCoordX="5" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="AI" tokenID="15" startCoordX="4" startCoordY="7" destinationCoordX="5" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="34" startCoordX="4" startCoordY="1" destinationCoordX="5" destinationCoordY="2" isPromoted="false" />
+      <Move playerName="AI" tokenID="29" startCoordX="3" startCoordY="4" destinationCoordX="3" destinationCoordY="2" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="3" startCoordX="3" startCoordY="2" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="AI" tokenID="29" startCoordX="3" startCoordY="2" destinationCoordX="3" destinationCoordY="2" isPromoted="true" />
+      <Move playerName="Presentation" tokenID="34" startCoordX="5" startCoordY="2" destinationCoordX="4" destinationCoordY="1" isPromoted="false" />
+      <Move playerName="AI" tokenID="29" startCoordX="3" startCoordY="2" destinationCoordX="3" destinationCoordY="3" isPromoted="true" />
+      <Move playerName="Presentation" tokenID="9" startCoordX="7" startCoordY="1" destinationCoordX="7" destinationCoordY="2" isPromoted="false" />
+      <Move playerName="AI" tokenID="29" startCoordX="3" startCoordY="3" destinationCoordX="2" destinationCoordY="2" isPromoted="true" />
+      <Move playerName="Presentation" tokenID="23" startCoordX="2" startCoordY="2" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="4" startCoordX="4" startCoordY="2" destinationCoordX="4" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="AI" tokenID="29" startCoordX="2" startCoordY="2" destinationCoordX="2" destinationCoordY="3" isPromoted="true" />
+      <Move playerName="Presentation" tokenID="8" startCoordX="8" startCoordY="3" destinationCoordX="8" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="AI" tokenID="33" startCoordX="6" startCoordY="8" destinationCoordX="7" destinationCoordY="7" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="8" startCoordX="8" startCoordY="4" destinationCoordX="8" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="AI" tokenID="28" startCoordX="8" startCoordY="5" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="AI" tokenID="23" startCoordX="-100" startCoordY="-100" destinationCoordX="8" destinationCoordY="8" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="28" startCoordX="-100" startCoordY="-100" destinationCoordX="2" destinationCoordY="2" isPromoted="false" />
+      <Move playerName="AI" tokenID="29" startCoordX="2" startCoordY="3" destinationCoordX="3" destinationCoordY="3" isPromoted="true" />
+      <Move playerName="Presentation" tokenID="8" startCoordX="8" startCoordY="5" destinationCoordX="8" destinationCoordY="6" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="8" startCoordX="8" startCoordY="6" destinationCoordX="8" destinationCoordY="6" isPromoted="true" />
+      <Move playerName="AI" tokenID="37" startCoordX="8" startCoordY="7" destinationCoordX="8" destinationCoordY="6" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="8" startCoordX="8" startCoordY="6" destinationCoordX="-100" destinationCoordY="-100" isPromoted="true" />
+      <Move playerName="Presentation" tokenID="18" startCoordX="8" startCoordY="0" destinationCoordX="8" destinationCoordY="6" isPromoted="false" />
+      <Move playerName="AI" tokenID="37" startCoordX="8" startCoordY="6" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="18" startCoordX="8" startCoordY="6" destinationCoordX="8" destinationCoordY="6" isPromoted="true" />
+      <Move playerName="AI" tokenID="33" startCoordX="7" startCoordY="7" destinationCoordX="8" destinationCoordY="6" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="18" startCoordX="8" startCoordY="6" destinationCoordX="-100" destinationCoordY="-100" isPromoted="true" />
+      <Move playerName="Presentation" tokenID="37" startCoordX="-100" startCoordY="-100" destinationCoordX="8" destinationCoordY="0" isPromoted="false" />
+      <Move playerName="AI" tokenID="33" startCoordX="8" startCoordY="6" destinationCoordX="7" destinationCoordY="7" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="28" startCoordX="2" startCoordY="2" destinationCoordX="2" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="AI" tokenID="18" startCoordX="-100" startCoordY="-100" destinationCoordX="4" destinationCoordY="7" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="14" startCoordX="6" startCoordY="1" destinationCoordX="7" destinationCoordY="0" isPromoted="false" />
+      <Move playerName="AI" tokenID="32" startCoordX="1" startCoordY="2" destinationCoordX="1" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="10" startCoordX="0" startCoordY="2" destinationCoordX="1" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="AI" tokenID="32" startCoordX="1" startCoordY="3" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="AI" tokenID="21" startCoordX="1" startCoordY="6" destinationCoordX="1" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="32" startCoordX="-100" startCoordY="-100" destinationCoordX="1" destinationCoordY="7" isPromoted="false" />
+      <Move playerName="AI" tokenID="38" startCoordX="0" startCoordY="8" destinationCoordX="0" destinationCoordY="6" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="32" startCoordX="1" startCoordY="7" destinationCoordX="2" destinationCoordY="7" isPromoted="false" />
+      <Move playerName="AI" tokenID="21" startCoordX="1" startCoordY="5" destinationCoordX="1" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="10" startCoordX="1" startCoordY="3" destinationCoordX="0" destinationCoordY="2" isPromoted="false" />
+      <Move playerName="AI" tokenID="26" startCoordX="6" startCoordY="5" destinationCoordX="6" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="32" startCoordX="2" startCoordY="7" destinationCoordX="1" destinationCoordY="7" isPromoted="false" />
+      <Move playerName="AI" tokenID="15" startCoordX="5" startCoordY="5" destinationCoordX="6" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="6" startCoordX="6" startCoordY="3" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="32" startCoordX="1" startCoordY="7" destinationCoordX="0" destinationCoordY="7" isPromoted="false" />
+      <Move playerName="AI" tokenID="20" startCoordX="0" startCoordY="5" destinationCoordX="0" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="32" startCoordX="0" startCoordY="7" destinationCoordX="0" destinationCoordY="6" isPromoted="false" />
+      <Move playerName="AI" tokenID="38" startCoordX="0" startCoordY="6" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="AI" tokenID="20" startCoordX="0" startCoordY="4" destinationCoordX="0" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="0" startCoordX="0" startCoordY="3" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="10" startCoordX="0" startCoordY="2" destinationCoordX="1" destinationCoordY="1" isPromoted="false" />
+      <Move playerName="AI" tokenID="24" startCoordX="4" startCoordY="5" destinationCoordX="4" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="4" startCoordX="4" startCoordY="3" destinationCoordX="4" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="AI" tokenID="24" startCoordX="4" startCoordY="4" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="AI" tokenID="29" startCoordX="3" startCoordY="3" destinationCoordX="3" destinationCoordY="4" isPromoted="true" />
+      <Move playerName="Presentation" tokenID="24" startCoordX="-100" startCoordY="-100" destinationCoordX="1" destinationCoordY="6" isPromoted="false" />
+      <Move playerName="AI" tokenID="8" startCoordX="-100" startCoordY="-100" destinationCoordX="4" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="24" startCoordX="1" startCoordY="6" destinationCoordX="1" destinationCoordY="7" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="24" startCoordX="1" startCoordY="7" destinationCoordX="1" destinationCoordY="7" isPromoted="true" />
+      <Move playerName="AI" tokenID="16" startCoordX="5" startCoordY="7" destinationCoordX="6" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="28" startCoordX="2" startCoordY="3" destinationCoordX="2" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="AI" tokenID="22" startCoordX="2" startCoordY="5" destinationCoordX="2" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="28" startCoordX="2" startCoordY="4" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="7" startCoordX="7" startCoordY="3" destinationCoordX="7" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="AI" tokenID="27" startCoordX="7" startCoordY="5" destinationCoordX="7" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="7" startCoordX="7" startCoordY="4" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="17" startCoordX="0" startCoordY="0" destinationCoordX="0" destinationCoordY="1" isPromoted="false" />
+      <Move playerName="AI" tokenID="33" startCoordX="7" startCoordY="7" destinationCoordX="7" destinationCoordY="6" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="10" startCoordX="1" startCoordY="1" destinationCoordX="2" destinationCoordY="2" isPromoted="false" />
+      <Move playerName="AI" tokenID="22" startCoordX="2" startCoordY="4" destinationCoordX="2" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="10" startCoordX="2" startCoordY="2" destinationCoordX="3" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="AI" tokenID="39" startCoordX="4" startCoordY="6" destinationCoordX="5" destinationCoordY="7" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="10" startCoordX="3" startCoordY="3" destinationCoordX="2" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="AI" tokenID="16" startCoordX="6" startCoordY="5" destinationCoordX="5" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="5" startCoordX="5" startCoordY="3" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+    </moves>
+  </GameSave>
+  <GameSave id="8" playerName="Player 1" playerMovesCount="17" date="05/05/15" time="02:03" fileName="data/save/GameSave.xml" gameMode="PLAYER_VS_PLAYER">
+    <moves>
+      <Move playerName="Player 1" tokenID="3" startCoordX="3" startCoordY="2" destinationCoordX="3" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="26" startCoordX="6" startCoordY="6" destinationCoordX="6" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="9" startCoordX="7" startCoordY="1" destinationCoordX="3" destinationCoordY="1" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="26" startCoordX="6" startCoordY="5" destinationCoordX="6" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="2" startCoordX="2" startCoordY="2" destinationCoordX="2" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="30" startCoordX="7" startCoordY="7" destinationCoordX="3" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="3" startCoordX="3" startCoordY="3" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="10" startCoordX="1" startCoordY="1" destinationCoordX="3" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="30" startCoordX="3" startCoordY="3" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="24" startCoordX="4" startCoordY="6" destinationCoordX="4" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="30" startCoordX="-100" startCoordY="-100" destinationCoordX="0" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="20" startCoordX="0" startCoordY="6" destinationCoordX="0" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="30" startCoordX="0" startCoordY="4" destinationCoordX="1" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="20" startCoordX="0" startCoordY="5" destinationCoordX="0" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="30" startCoordX="1" startCoordY="3" destinationCoordX="0" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="20" startCoordX="0" startCoordY="4" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="3" startCoordX="-100" startCoordY="-100" destinationCoordX="0" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="1" startCoordX="1" startCoordY="2" destinationCoordX="1" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="3" startCoordX="0" startCoordY="5" destinationCoordX="0" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="30" startCoordX="0" startCoordY="4" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="8" startCoordX="8" startCoordY="2" destinationCoordX="8" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="28" startCoordX="8" startCoordY="6" destinationCoordX="8" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="8" startCoordX="8" startCoordY="3" destinationCoordX="8" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="28" startCoordX="8" startCoordY="5" destinationCoordX="8" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="8" startCoordX="8" startCoordY="4" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="18" startCoordX="8" startCoordY="0" destinationCoordX="8" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="28" startCoordX="8" startCoordY="4" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="30" startCoordX="-100" startCoordY="-100" destinationCoordX="6" destinationCoordY="7" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="16" startCoordX="7" startCoordY="0" destinationCoordX="8" destinationCoordY="2" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="27" startCoordX="7" startCoordY="6" destinationCoordX="7" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="10" startCoordX="3" startCoordY="3" destinationCoordX="2" destinationCoordY="2" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="30" startCoordX="6" startCoordY="7" destinationCoordX="7" destinationCoordY="6" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="14" startCoordX="6" startCoordY="0" destinationCoordX="7" destinationCoordY="1" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="30" startCoordX="7" startCoordY="6" destinationCoordX="1" destinationCoordY="0" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="15" startCoordX="1" startCoordY="0" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="30" startCoordX="1" startCoordY="0" destinationCoordX="1" destinationCoordY="0" isPromoted="true" />
+      <Move playerName="Player 1" tokenID="4" startCoordX="4" startCoordY="2" destinationCoordX="4" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="22" startCoordX="2" startCoordY="6" destinationCoordX="2" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="5" startCoordX="5" startCoordY="2" destinationCoordX="5" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="33" startCoordX="6" startCoordY="8" destinationCoordX="7" destinationCoordY="7" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="12" startCoordX="5" startCoordY="0" destinationCoordX="5" destinationCoordY="1" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="39" startCoordX="4" startCoordY="8" destinationCoordX="5" destinationCoordY="7" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="12" startCoordX="5" startCoordY="1" destinationCoordX="4" destinationCoordY="2" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="21" startCoordX="1" startCoordY="6" destinationCoordX="1" destinationCoordY="5" isPromoted="false" />
+    </moves>
+  </GameSave>
+  <GameSave id="9" playerName="Player 1" playerMovesCount="12" date="05/05/15" time="01:11" fileName="data/save/GameSave.xml" gameMode="PLAYER_VS_PLAYER">
+    <moves>
+      <Move playerName="Player 1" tokenID="4" startCoordX="4" startCoordY="2" destinationCoordX="4" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="20" startCoordX="0" startCoordY="6" destinationCoordX="0" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="4" startCoordX="4" startCoordY="3" destinationCoordX="4" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="23" startCoordX="3" startCoordY="6" destinationCoordX="3" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="4" startCoordX="4" startCoordY="4" destinationCoordX="4" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="23" startCoordX="3" startCoordY="5" destinationCoordX="3" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="6" startCoordX="6" startCoordY="2" destinationCoordX="6" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="20" startCoordX="0" startCoordY="5" destinationCoordX="0" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="6" startCoordX="6" startCoordY="3" destinationCoordX="6" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="38" startCoordX="0" startCoordY="8" destinationCoordX="0" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="9" startCoordX="7" startCoordY="1" destinationCoordX="6" destinationCoordY="1" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="29" startCoordX="1" startCoordY="7" destinationCoordX="3" destinationCoordY="7" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="9" startCoordX="6" startCoordY="1" destinationCoordX="6" destinationCoordY="2" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="23" startCoordX="3" startCoordY="4" destinationCoordX="3" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="3" startCoordX="3" startCoordY="2" destinationCoordX="3" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="23" startCoordX="3" startCoordY="3" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="24" startCoordX="4" startCoordY="6" destinationCoordX="4" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="4" startCoordX="4" startCoordY="5" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="23" startCoordX="-100" startCoordY="-100" destinationCoordX="4" destinationCoordY="2" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="29" startCoordX="3" startCoordY="7" destinationCoordX="3" destinationCoordY="6" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="2" startCoordX="2" startCoordY="2" destinationCoordX="2" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="29" startCoordX="3" startCoordY="6" destinationCoordX="3" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="3" startCoordX="3" startCoordY="3" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="10" startCoordX="1" startCoordY="1" destinationCoordX="3" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="29" startCoordX="3" startCoordY="3" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="3" startCoordX="-100" startCoordY="-100" destinationCoordX="3" destinationCoordY="6" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="29" startCoordX="-100" startCoordY="-100" destinationCoordX="3" destinationCoordY="1" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="20" startCoordX="0" startCoordY="4" destinationCoordX="0" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="0" startCoordX="0" startCoordY="2" destinationCoordX="0" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="20" startCoordX="0" startCoordY="3" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="4" startCoordX="-100" startCoordY="-100" destinationCoordX="0" destinationCoordY="2" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="18" startCoordX="8" startCoordY="0" destinationCoordX="8" destinationCoordY="1" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="36" startCoordX="1" startCoordY="8" destinationCoordX="0" destinationCoordY="6" isPromoted="false" />
+    </moves>
+  </GameSave>
+  <GameSave id="5" playerName="Presentation" playerMovesCount="19" date="10/05/15" time="02:25" fileName="data/save/GameSave.xml" gameMode="PLAYER_VS_AI">
+    <moves>
+      <Move playerName="Presentation" tokenID="5" startCoordX="5" startCoordY="2" destinationCoordX="5" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="AI" tokenID="34" startCoordX="2" startCoordY="8" destinationCoordX="3" destinationCoordY="7" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="2" startCoordX="2" startCoordY="2" destinationCoordX="2" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="AI" tokenID="39" startCoordX="4" startCoordY="8" destinationCoordX="5" destinationCoordY="7" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="15" startCoordX="1" startCoordY="0" destinationCoordX="2" destinationCoordY="2" isPromoted="false" />
+      <Move playerName="AI" tokenID="34" startCoordX="3" startCoordY="7" destinationCoordX="2" destinationCoordY="8" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="15" startCoordX="2" startCoordY="2" destinationCoordX="3" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="AI" tokenID="23" startCoordX="3" startCoordY="6" destinationCoordX="3" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="15" startCoordX="3" startCoordY="4" destinationCoordX="2" destinationCoordY="6" isPromoted="false" />
+      <Move playerName="AI" tokenID="22" startCoordX="2" startCoordY="6" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="15" startCoordX="2" startCoordY="6" destinationCoordX="2" destinationCoordY="6" isPromoted="true" />
+      <Move playerName="AI" tokenID="36" startCoordX="1" startCoordY="8" destinationCoordX="2" destinationCoordY="6" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="15" startCoordX="2" startCoordY="6" destinationCoordX="-100" destinationCoordY="-100" isPromoted="true" />
+      <Move playerName="Presentation" tokenID="2" startCoordX="2" startCoordY="3" destinationCoordX="2" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="AI" tokenID="15" startCoordX="-100" startCoordY="-100" destinationCoordX="4" destinationCoordY="7" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="9" startCoordX="7" startCoordY="1" destinationCoordX="5" destinationCoordY="1" isPromoted="false" />
+      <Move playerName="AI" tokenID="26" startCoordX="6" startCoordY="6" destinationCoordX="6" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="5" startCoordX="5" startCoordY="3" destinationCoordX="5" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="AI" tokenID="30" startCoordX="7" startCoordY="7" destinationCoordX="1" destinationCoordY="1" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="10" startCoordX="1" startCoordY="1" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="AI" tokenID="30" startCoordX="1" startCoordY="1" destinationCoordX="1" destinationCoordY="1" isPromoted="true" />
+      <Move playerName="Presentation" tokenID="9" startCoordX="5" startCoordY="1" destinationCoordX="1" destinationCoordY="1" isPromoted="false" />
+      <Move playerName="AI" tokenID="30" startCoordX="1" startCoordY="1" destinationCoordX="-100" destinationCoordY="-100" isPromoted="true" />
+      <Move playerName="AI" tokenID="10" startCoordX="-100" startCoordY="-100" destinationCoordX="4" destinationCoordY="8" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="30" startCoordX="-100" startCoordY="-100" destinationCoordX="7" destinationCoordY="1" isPromoted="false" />
+      <Move playerName="AI" tokenID="35" startCoordX="7" startCoordY="8" destinationCoordX="6" destinationCoordY="6" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="8" startCoordX="8" startCoordY="2" destinationCoordX="8" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="AI" tokenID="35" startCoordX="6" startCoordY="6" destinationCoordX="5" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="5" startCoordX="5" startCoordY="4" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="6" startCoordX="6" startCoordY="2" destinationCoordX="6" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="AI" tokenID="23" startCoordX="3" startCoordY="5" destinationCoordX="3" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="8" startCoordX="8" startCoordY="3" destinationCoordX="8" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="AI" tokenID="5" startCoordX="-100" startCoordY="-100" destinationCoordX="2" destinationCoordY="7" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="16" startCoordX="7" startCoordY="0" destinationCoordX="8" destinationCoordY="2" isPromoted="false" />
+      <Move playerName="AI" tokenID="35" startCoordX="5" startCoordY="4" destinationCoordX="4" destinationCoordY="2" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="4" startCoordX="4" startCoordY="2" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="AI" tokenID="35" startCoordX="4" startCoordY="2" destinationCoordX="4" destinationCoordY="2" isPromoted="true" />
+      <Move playerName="Presentation" tokenID="16" startCoordX="8" startCoordY="2" destinationCoordX="7" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="AI" tokenID="27" startCoordX="7" startCoordY="6" destinationCoordX="7" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="16" startCoordX="7" startCoordY="4" destinationCoordX="8" destinationCoordY="6" isPromoted="false" />
+      <Move playerName="AI" tokenID="28" startCoordX="8" startCoordY="6" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="16" startCoordX="8" startCoordY="6" destinationCoordX="8" destinationCoordY="6" isPromoted="true" />
+      <Move playerName="AI" tokenID="4" startCoordX="-100" startCoordY="-100" destinationCoordX="8" destinationCoordY="7" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="16" startCoordX="8" startCoordY="6" destinationCoordX="7" destinationCoordY="6" isPromoted="true" />
+      <Move playerName="AI" tokenID="29" startCoordX="1" startCoordY="7" destinationCoordX="0" destinationCoordY="7" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="16" startCoordX="7" startCoordY="6" destinationCoordX="7" destinationCoordY="5" isPromoted="true" />
+      <Move playerName="AI" tokenID="27" startCoordX="7" startCoordY="5" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="AI" tokenID="32" startCoordX="3" startCoordY="8" destinationCoordX="3" destinationCoordY="7" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="16" startCoordX="7" startCoordY="5" destinationCoordX="6" destinationCoordY="5" isPromoted="true" />
+      <Move playerName="AI" tokenID="26" startCoordX="6" startCoordY="5" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="AI" tokenID="36" startCoordX="2" startCoordY="6" destinationCoordX="1" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="26" startCoordX="-100" startCoordY="-100" destinationCoordX="5" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="AI" tokenID="32" startCoordX="3" startCoordY="7" destinationCoordX="3" destinationCoordY="8" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="8" startCoordX="8" startCoordY="4" destinationCoordX="8" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="AI" tokenID="20" startCoordX="0" startCoordY="6" destinationCoordX="0" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="Presentation" tokenID="27" startCoordX="-100" startCoordY="-100" destinationCoordX="4" destinationCoordY="1" isPromoted="false" />
+      <Move playerName="AI" tokenID="35" startCoordX="4" startCoordY="2" destinationCoordX="5" destinationCoordY="2" isPromoted="true" />
+    </moves>
+  </GameSave>
+  <GameSave id="10" playerName="Player 1" playerMovesCount="2" date="10/05/15" time="01:22" fileName="data/save/GameSave.xml" gameMode="PLAYER_VS_PLAYER">
+    <moves>
+      <Move playerName="Player 1" tokenID="4" startCoordX="4" startCoordY="2" destinationCoordX="4" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="28" startCoordX="8" startCoordY="6" destinationCoordX="8" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="2" startCoordX="2" startCoordY="2" destinationCoordX="2" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="26" startCoordX="6" startCoordY="6" destinationCoordX="6" destinationCoordY="5" isPromoted="false" />
+    </moves>
+  </GameSave>
+  <GameSave id="11" playerName="Player 1" playerMovesCount="3" date="10/05/15" time="00:27" fileName="data/save/GameSave.xml" gameMode="PLAYER_VS_PLAYER">
+    <moves>
+      <Move playerName="Player 1" tokenID="2" startCoordX="2" startCoordY="2" destinationCoordX="2" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="25" startCoordX="5" startCoordY="6" destinationCoordX="5" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="5" startCoordX="5" startCoordY="2" destinationCoordX="5" destinationCoordY="3" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="25" startCoordX="5" startCoordY="5" destinationCoordX="5" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="5" startCoordX="5" startCoordY="3" destinationCoordX="5" destinationCoordY="4" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="25" startCoordX="5" startCoordY="4" destinationCoordX="-100" destinationCoordY="-100" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="24" startCoordX="4" startCoordY="6" destinationCoordX="4" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="5" startCoordX="5" startCoordY="4" destinationCoordX="5" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="GUEST" tokenID="31" startCoordX="5" startCoordY="8" destinationCoordX="5" destinationCoordY="7" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="5" startCoordX="5" startCoordY="5" destinationCoordX="5" destinationCoordY="6" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="5" startCoordX="5" startCoordY="6" destinationCoordX="5" destinationCoordY="6" isPromoted="true" />
+      <Move playerName="GUEST" tokenID="22" startCoordX="2" startCoordY="6" destinationCoordX="2" destinationCoordY="5" isPromoted="false" />
+      <Move playerName="Player 1" tokenID="25" startCoordX="-100" startCoordY="-100" destinationCoordX="5" destinationCoordY="2" isPromoted="false" />
+    </moves>
+  </GameSave>
+</ArrayOfGameSave>
