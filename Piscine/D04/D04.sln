@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D04", "D04.csproj", "{DC4EB40C-5338-8540-656D-493B07E8F8E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D04.Editor", "D04.Editor.csproj", "{F08ACB98-BAAD-AD02-6369-B0408A8D2C9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC4EB40C-5338-8540-656D-493B07E8F8E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC4EB40C-5338-8540-656D-493B07E8F8E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC4EB40C-5338-8540-656D-493B07E8F8E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC4EB40C-5338-8540-656D-493B07E8F8E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F08ACB98-BAAD-AD02-6369-B0408A8D2C9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F08ACB98-BAAD-AD02-6369-B0408A8D2C9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F08ACB98-BAAD-AD02-6369-B0408A8D2C9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F08ACB98-BAAD-AD02-6369-B0408A8D2C9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
