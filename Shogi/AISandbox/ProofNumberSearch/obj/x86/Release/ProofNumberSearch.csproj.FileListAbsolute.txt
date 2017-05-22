@@ -1,0 +1,5 @@
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\ProofNumberSearch\bin\Release\Tools.dll
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\ProofNumberSearch\bin\Release\Tools.pdb
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\ProofNumberSearch\obj\x86\Release\ProofNumberSearch.csprojResolveAssemblyReference.cache
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\ProofNumberSearch\bin\Release\ProofNumberSearch.dll
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\ProofNumberSearch\obj\x86\Release\ProofNumberSearch.dll

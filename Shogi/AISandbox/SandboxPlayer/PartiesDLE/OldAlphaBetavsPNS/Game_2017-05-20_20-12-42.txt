@@ -1,0 +1,365 @@
+********** Partie 0 **********
+********** Gote Algorithm: Old AlphaBeta | Sente Algorithm: ProofNumberSearch | Depth: 4 **********
+root Gote score = 0
+root Sente score = 0
+root Gote Captured Tokens = { }
+root Sente Captured Tokens = { }
+ 430  |  450  |  640  |  690  |  4720 |  690  |  640  |  450  |  430 
+      |  890  |       |       |       |       |       |  1040 |      
+ 100  |  100  |  100  |  100  |  100  |  100  |  100  |  100  |  100 
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100
+      | -1040 |       |       |       |       |       |  -890 |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |  -450 |  -430
+********** Turn 1 Gote Playing **********
+Entree de l'algo Old AlphaBeta Gote Turn ? True
+Sortie de l'algo OldAlphaBeta. Node Index = 23 | Nodes Checked = 1946 | Duree = 842 ms
+Score du noeud selectionne : 0 | Threat = 0
+Gote score = 0
+Sente score = 0
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 858 ms
+ 430  |  450  |  640  |  690  |  4720 |  690  |  640  |  450  |  430 
+      |  890  |       |       |       |       |       |  1040 |      
+ 100  |  100  |       |  100  |  100  |  100  |  100  |  100  |  100 
+      |       |  100  |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100
+      | -1040 |       |       |       |       |       |  -890 |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |  -450 |  -430
+********** Turn 2 Sente Playing **********
+Gote score = 190
+Sente score = -190
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 10000 ms
+ 430  |  450  |  640  |  690  |  4720 |  690  |  640  |  450  |  430 
+      |  890  |       |       |       |       |       |  1040 |      
+ 100  |  100  |       |  100  |  100  |  100  |  100  |  100  |  100 
+      |       |  100  |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100
+      | -1040 |       | -4720 |       |       |       |  -890 |      
+ -430 |  -450 |  -640 |  -690 |       |  -690 |  -640 |  -450 |  -430
+********** Turn 3 Gote Playing **********
+Entree de l'algo Old AlphaBeta Gote Turn ? True
+Sortie de l'algo OldAlphaBeta. Node Index = 0 | Nodes Checked = 2513 | Duree = 1232 ms
+Score du noeud selectionne : 0 | Threat = 0
+Gote score = 190
+Sente score = -190
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 1232 ms
+      |  450  |  640  |  690  |  4720 |  690  |  640  |  450  |  430 
+ 430  |  890  |       |       |       |       |       |  1040 |      
+ 100  |  100  |       |  100  |  100  |  100  |  100  |  100  |  100 
+      |       |  100  |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100
+      | -1040 |       | -4720 |       |       |       |  -890 |      
+ -430 |  -450 |  -640 |  -690 |       |  -690 |  -640 |  -450 |  -430
+********** Turn 4 Sente Playing **********
+Gote score = 230
+Sente score = -230
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 640 ms
+      |  450  |  640  |  690  |  4720 |  690  |  640  |  450  |  430 
+ 430  |  890  |       |       |       |       |       |  1040 |      
+ 100  |  100  |       |  100  |  100  |  100  |  100  |  100  |  100 
+      |       |  100  |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100
+      | -1040 | -4720 |       |       |       |       |  -890 |      
+ -430 |  -450 |  -640 |  -690 |       |  -690 |  -640 |  -450 |  -430
+********** Turn 5 Gote Playing **********
+Entree de l'algo Old AlphaBeta Gote Turn ? True
+Sortie de l'algo OldAlphaBeta. Node Index = 1 | Nodes Checked = 2484 | Duree = 873 ms
+Score du noeud selectionne : 0 | Threat = 0
+Gote score = 255
+Sente score = -255
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 889 ms
+      |  450  |       |  690  |  4720 |  690  |  640  |  450  |  430 
+ 430  |  890  |  640  |       |       |       |       |  1040 |      
+ 100  |  100  |       |  100  |  100  |  100  |  100  |  100  |  100 
+      |       |  100  |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100
+      | -1040 | -4720 |       |       |       |       |  -890 |      
+ -430 |  -450 |  -640 |  -690 |       |  -690 |  -640 |  -450 |  -430
+********** Turn 6 Sente Playing **********
+Gote score = 255
+Sente score = -255
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 47 ms
+      |  450  |       |  690  |  4720 |  690  |  640  |  450  |  430 
+ 430  |  890  |  640  |       |       |       |       |  1040 |      
+ 100  |  100  |       |  100  |  100  |  100  |  100  |  100  |  100 
+      |       |  100  |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+      |  -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100
+      | -1040 | -4720 |       |       |       |       |  -890 |      
+ -430 |  -450 |  -640 |  -690 |       |  -690 |  -640 |  -450 |  -430
+********** Turn 7 Gote Playing **********
+Entree de l'algo Old AlphaBeta Gote Turn ? True
+Sortie de l'algo OldAlphaBeta. Node Index = 1 | Nodes Checked = 2378 | Duree = 811 ms
+Score du noeud selectionne : 0 | Threat = 0
+Gote score = 280
+Sente score = -280
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 811 ms
+      |  450  |       |       |  4720 |  690  |  640  |  450  |  430 
+ 430  |  890  |  640  |  690  |       |       |       |  1040 |      
+ 100  |  100  |       |  100  |  100  |  100  |  100  |  100  |  100 
+      |       |  100  |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+      |  -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100
+      | -1040 | -4720 |       |       |       |       |  -890 |      
+ -430 |  -450 |  -640 |  -690 |       |  -690 |  -640 |  -450 |  -430
+********** Turn 8 Sente Playing **********
+Gote score = 280
+Sente score = -280
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 62 ms
+      |  450  |       |       |  4720 |  690  |  640  |  450  |  430 
+ 430  |  890  |  640  |  690  |       |       |       |  1040 |      
+ 100  |  100  |       |  100  |  100  |  100  |  100  |  100  |  100 
+      |       |  100  |       |       |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100
+      | -1040 | -4720 |       |       |       |       |  -890 |      
+ -430 |  -450 |  -640 |  -690 |       |  -690 |  -640 |  -450 |  -430
+********** Turn 9 Gote Playing **********
+Entree de l'algo Old AlphaBeta Gote Turn ? True
+Sortie de l'algo OldAlphaBeta. Node Index = 1 | Nodes Checked = 3349 | Duree = 874 ms
+Score du noeud selectionne : 0 | Threat = 0
+Gote score = 280
+Sente score = -280
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 874 ms
+      |  450  |       |  4720 |       |  690  |  640  |  450  |  430 
+ 430  |  890  |  640  |  690  |       |       |       |  1040 |      
+ 100  |  100  |       |  100  |  100  |  100  |  100  |  100  |  100 
+      |       |  100  |       |       |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100
+      | -1040 | -4720 |       |       |       |       |  -890 |      
+ -430 |  -450 |  -640 |  -690 |       |  -690 |  -640 |  -450 |  -430
+********** Turn 10 Sente Playing **********
+Gote score = 280
+Sente score = -280
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 78 ms
+      |  450  |       |  4720 |       |  690  |  640  |  450  |  430 
+ 430  |  890  |  640  |  690  |       |       |       |  1040 |      
+ 100  |  100  |       |  100  |  100  |  100  |  100  |  100  |  100 
+ -100 |       |  100  |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100
+      | -1040 | -4720 |       |       |       |       |  -890 |      
+ -430 |  -450 |  -640 |  -690 |       |  -690 |  -640 |  -450 |  -430
+********** Turn 11 Gote Playing **********
+Entree de l'algo Old AlphaBeta Gote Turn ? True
+Sortie de l'algo OldAlphaBeta. Node Index = 1 | Nodes Checked = 2257 | Duree = 421 ms
+Score du noeud selectionne : 0 | Threat = 0
+Gote score = 280
+Sente score = -280
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 421 ms
+      |  450  |  4720 |       |       |  690  |  640  |  450  |  430 
+ 430  |  890  |  640  |  690  |       |       |       |  1040 |      
+ 100  |  100  |       |  100  |  100  |  100  |  100  |  100  |  100 
+ -100 |       |  100  |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100
+      | -1040 | -4720 |       |       |       |       |  -890 |      
+ -430 |  -450 |  -640 |  -690 |       |  -690 |  -640 |  -450 |  -430
+********** Turn 12 Sente Playing **********
+Gote score = 280
+Sente score = -280
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 203 ms
+      |  450  |  4720 |       |       |  690  |  640  |  450  |  430 
+ 430  |  890  |  640  |  690  |       |       |       |  1040 |      
+ 100  |  100  |       |  100  |  100  |  100  |  100  |  100  |  100 
+ -100 |       |  100  |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  -100 |       |       |       |       |       |       |      
+      |       |  -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100
+      | -1040 | -4720 |       |       |       |       |  -890 |      
+ -430 |  -450 |  -640 |  -690 |       |  -690 |  -640 |  -450 |  -430
+********** Turn 13 Gote Playing **********
+Entree de l'algo Old AlphaBeta Gote Turn ? True
+Sortie de l'algo OldAlphaBeta. Node Index = 1 | Nodes Checked = 2291 | Duree = 468 ms
+Score du noeud selectionne : 0 | Threat = 0
+Gote score = 280
+Sente score = -280
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 468 ms
+      |  450  |       |  4720 |       |  690  |  640  |  450  |  430 
+ 430  |  890  |  640  |  690  |       |       |       |  1040 |      
+ 100  |  100  |       |  100  |  100  |  100  |  100  |  100  |  100 
+ -100 |       |  100  |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  -100 |       |       |       |       |       |       |      
+      |       |  -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100
+      | -1040 | -4720 |       |       |       |       |  -890 |      
+ -430 |  -450 |  -640 |  -690 |       |  -690 |  -640 |  -450 |  -430
+********** Turn 14 Sente Playing **********
+Gote score = 430
+Sente score = -430
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 234 ms
+      |  450  |       |  4720 |       |  690  |  640  |  450  |  430 
+ 430  |  890  |  640  |  690  |       |       |       |  1040 |      
+ 100  |  100  |       |  100  |  100  |  100  |  100  |  100  |  100 
+ -100 |       |  100  |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  -100 |       |       |       |       |       |       |      
+      | -4720 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100
+      | -1040 |       |       |       |       |       |  -890 |      
+ -430 |  -450 |  -640 |  -690 |       |  -690 |  -640 |  -450 |  -430
+********** Turn 15 Gote Playing **********
+Entree de l'algo Old AlphaBeta Gote Turn ? True
+Sortie de l'algo OldAlphaBeta. Node Index = 1 | Nodes Checked = 2684 | Duree = 671 ms
+Score du noeud selectionne : 0 | Threat = 0
+Gote score = 430
+Sente score = -430
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 671 ms
+      |  450  |  4720 |       |       |  690  |  640  |  450  |  430 
+ 430  |  890  |  640  |  690  |       |       |       |  1040 |      
+ 100  |  100  |       |  100  |  100  |  100  |  100  |  100  |  100 
+ -100 |       |  100  |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  -100 |       |       |       |       |       |       |      
+      | -4720 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100
+      | -1040 |       |       |       |       |       |  -890 |      
+ -430 |  -450 |  -640 |  -690 |       |  -690 |  -640 |  -450 |  -430
+********** Turn 16 Sente Playing **********
+Gote score = 780
+Sente score = -780
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 109 ms
+      |  450  |  4720 |       |       |  690  |  640  |  450  |  430 
+ 430  |  890  |  640  |  690  |       |       |       |  1040 |      
+ 100  |  100  |       |  100  |  100  |  100  |  100  |  100  |  100 
+ -100 |       |  100  |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  -100 | -4720 |       |       |       |       |       |      
+      |       |  -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100
+      | -1040 |       |       |       |       |       |  -890 |      
+ -430 |  -450 |  -640 |  -690 |       |  -690 |  -640 |  -450 |  -430
+********** Turn 17 Gote Playing **********
+Entree de l'algo Old AlphaBeta Gote Turn ? True
+Sortie de l'algo OldAlphaBeta. Node Index = 1 | Nodes Checked = 2704 | Duree = 608 ms
+Score du noeud selectionne : 0 | Threat = 0
+Gote score = 780
+Sente score = -780
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 608 ms
+      |  450  |       |  4720 |       |  690  |  640  |  450  |  430 
+ 430  |  890  |  640  |  690  |       |       |       |  1040 |      
+ 100  |  100  |       |  100  |  100  |  100  |  100  |  100  |  100 
+ -100 |       |  100  |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  -100 | -4720 |       |       |       |       |       |      
+      |       |  -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100
+      | -1040 |       |       |       |       |       |  -890 |      
+ -430 |  -450 |  -640 |  -690 |       |  -690 |  -640 |  -450 |  -430
+********** Turn 18 Sente Playing **********
+Gote score = 930
+Sente score = -930
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 32 ms
+      |  450  |       |  4720 |       |  690  |  640  |  450  |  430 
+ 430  |  890  |  640  |  690  |       |       |       |  1040 |      
+ 100  |  100  |       |  100  |  100  |  100  |  100  |  100  |  100 
+ -100 |       |  100  |       |       |       |       |       |      
+      |       |       | -4720 |       |       |       |       |      
+      |  -100 |       |       |       |       |       |       |      
+      |       |  -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100
+      | -1040 |       |       |       |       |       |  -890 |      
+ -430 |  -450 |  -640 |  -690 |       |  -690 |  -640 |  -450 |  -430
+********** Turn 19 Gote Playing **********
+Entree de l'algo Old AlphaBeta Gote Turn ? True
+Sortie de l'algo OldAlphaBeta. Node Index = 1 | Nodes Checked = 2701 | Duree = 764 ms
+Score du noeud selectionne : -200 | Threat = 0
+Gote score = 930
+Sente score = -930
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 764 ms
+      |  450  |  4720 |       |       |  690  |  640  |  450  |  430 
+ 430  |  890  |  640  |  690  |       |       |       |  1040 |      
+ 100  |  100  |       |  100  |  100  |  100  |  100  |  100  |  100 
+ -100 |       |  100  |       |       |       |       |       |      
+      |       |       | -4720 |       |       |       |       |      
+      |  -100 |       |       |       |       |       |       |      
+      |       |  -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100
+      | -1040 |       |       |       |       |       |  -890 |      
+ -430 |  -450 |  -640 |  -690 |       |  -690 |  -640 |  -450 |  -430
+********** Turn 20 Sente Playing **********
+Gote score = 1600
+Sente score = -1600
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 31 ms
+      |  450  |  4720 |       |       |  690  |  640  |  450  |  430 
+ 430  |  890  |  640  |  690  |       |       |       |  1040 |      
+ 100  |  100  |       |  100  |  100  |  100  |  100  |  100  |  100 
+ -100 |       |  100  | -4720 |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  -100 |       |       |       |       |       |       |      
+      |       |  -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100
+      | -1040 |       |       |       |       |       |  -890 |      
+ -430 |  -450 |  -640 |  -690 |       |  -690 |  -640 |  -450 |  -430
+********** Turn 21 Gote Playing **********
+Entree de l'algo Old AlphaBeta Gote Turn ? True
+Sortie de l'algo OldAlphaBeta. Node Index = 10 | Nodes Checked = 2513 | Duree = 453 ms
+Score du noeud selectionne : 4720 | Threat = 0
+Gote score = 999999999
+Sente score = -999999999
+Gote Captured Tokens = KING
+Sente Captured Tokens = { }
+Turn Duration: 453 ms
+      |  450  |  4720 |       |       |  690  |  640  |  450  |  430 
+ 430  |       |  640  |  690  |       |       |       |  1040 |      
+ 100  |  100  |       |  100  |  100  |  100  |  100  |  100  |  100 
+ -100 |       |  100  |  890  |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |  -100 |       |       |       |       |       |       |      
+      |       |  -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100
+      | -1040 |       |       |       |       |       |  -890 |      
+ -430 |  -450 |  -640 |  -690 |       |  -690 |  -640 |  -450 |  -430
+Gote won
+Game Duration: 19485 ms

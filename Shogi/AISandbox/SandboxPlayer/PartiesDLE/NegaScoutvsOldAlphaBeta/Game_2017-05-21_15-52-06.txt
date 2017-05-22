@@ -1,0 +1,131 @@
+********** Partie 0 **********
+********** Gote Algorithm: NegaScout | Sente Algorithm: Old AlphaBeta | Depth: 3 **********
+root Gote score = -750
+root Sente score = 750
+root Gote Captured Tokens = { }
+root Sente Captured Tokens = { }
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |  4720 |       |       |       |      
+      |       |       |       | -1040 |       |       |       |      
+      |  890  |       |       |       |       |       |       |      
+ -100 |       |  -100 | -4720 |       |       |       |       |      
+********** Turn 1 Gote Playing **********
+Gote score = 1730
+Sente score = -1730
+Gote Captured Tokens = ROOK
+Sente Captured Tokens = { }
+Turn Duration: 31 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |  4720 |       |       |       |      
+      |  890  |       |       |       |       |       |       |      
+ -100 |       |  -100 | -4720 |       |       |       |       |      
+********** Turn 2 Sente Playing **********
+Entree de l'algo Old AlphaBeta Gote Turn ? False
+Sortie de l'algo OldAlphaBeta. Node Index = 0 | Nodes Checked = 155 | Duree = 32 ms
+Score du noeud selectionne : -1990 | Threat = 0
+Gote score = 1730
+Sente score = -1730
+Gote Captured Tokens = ROOK
+Sente Captured Tokens = { }
+Turn Duration: 32 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |  4720 |       |       |       |      
+ -100 |  890  |       |       |       |       |       |       |      
+      |       |  -100 | -4720 |       |       |       |       |      
+********** Turn 3 Gote Playing **********
+Gote score = 1990
+Sente score = -1990
+Gote Captured Tokens = ROOK
+Sente Captured Tokens = { }
+Turn Duration: 109 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |  1150 |       |  4720 |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+      |       |  -100 | -4720 |       |       |       |       |      
+********** Turn 4 Sente Playing **********
+Entree de l'algo Old AlphaBeta Gote Turn ? False
+Sortie de l'algo OldAlphaBeta. Node Index = 0 | Nodes Checked = 136 | Duree = 15 ms
+Score du noeud selectionne : -1990 | Threat = 0
+Gote score = 1990
+Sente score = -1990
+Gote Captured Tokens = ROOK
+Sente Captured Tokens = { }
+Turn Duration: 15 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       |  1150 |       |  4720 |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |  -100 | -4720 |       |       |       |       |      
+********** Turn 5 Gote Playing **********
+Gote score = 1990
+Sente score = -1990
+Gote Captured Tokens = ROOK
+Sente Captured Tokens = { }
+Turn Duration: 63 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       |       |       |  4720 |       |       |       |      
+      |       |       |  1150 |       |       |       |       |      
+      |       |  -100 | -4720 |       |       |       |       |      
+********** Turn 6 Sente Playing **********
+Entree de l'algo Old AlphaBeta Gote Turn ? False
+Sortie de l'algo OldAlphaBeta. Node Index = 3 | Nodes Checked = 220 | Duree = 47 ms
+Score du noeud selectionne : -4670 | Threat = 0
+Gote score = -50
+Sente score = 50
+Gote Captured Tokens = ROOK
+Sente Captured Tokens = BISHOP
+Turn Duration: 47 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       |       |       |  4720 |       |       |       |      
+      |       |       | -4720 |       |       |       |       |      
+      |       |  -100 |       |       |       |       |       |      
+********** Turn 7 Gote Playing **********
+Gote score = 999999999
+Sente score = -999999999
+Gote Captured Tokens = ROOK | KING
+Sente Captured Tokens = BISHOP
+Turn Duration: 15 ms
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |       |       |       |       |       |       |       |      
+      |       |       |  4720 |       |       |       |       |      
+      |       |  -100 |       |       |       |       |       |      
+Gote won
+Game Duration: 312 ms

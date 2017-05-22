@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{5590CBEA-6536-4B8A-AC3F-B7E2FDDAC996}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>NegaScoutLauncher</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AlgorithmLauncher.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\Tools\Tools.csproj">
+      <Project>{BDE76FE3-922F-4DBF-BA3B-7975A3B64863}</Project>
+      <Name>Tools</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NegaScout\NegaScout.csproj">
+      <Project>{C3B9EA2D-4E14-440F-AF68-4B60B6BD46F8}</Project>
+      <Name>NegaScout</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MinMax\MinMax.csproj">
+      <Project>{19CD739A-5679-4046-B825-71DDE495DA4D}</Project>
+      <Name>MinMax</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AlphaBeta\AlphaBeta.csproj">
+      <Project>{AD986D13-762A-4D39-AA9C-C327F310A811}</Project>
+      <Name>AlphaBeta</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProofNumberSearch\ProofNumberSearch.csproj">
+      <Project>{7E381FC4-CB97-4347-A25C-E2E847D92B06}</Project>
+      <Name>ProofNumberSearch</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

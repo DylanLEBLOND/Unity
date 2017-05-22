@@ -1,0 +1,14 @@
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MonteCarlo\bin\Release\MonteCarlo.dll
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MonteCarlo\bin\Release\MonteCarlo.pdb
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MonteCarlo\bin\Release\mscorlib.dll
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MonteCarlo\bin\Release\Tools.dll
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MonteCarlo\bin\Release\Tools.pdb
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MonteCarlo\bin\Release\fr\mscorlib.resources.dll
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MonteCarlo\bin\Release\normidna.nlp
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MonteCarlo\bin\Release\normnfc.nlp
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MonteCarlo\bin\Release\normnfd.nlp
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MonteCarlo\bin\Release\normnfkc.nlp
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MonteCarlo\bin\Release\normnfkd.nlp
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MonteCarlo\obj\Release\MonteCarlo.csprojResolveAssemblyReference.cache
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MonteCarlo\obj\Release\MonteCarlo.dll
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MonteCarlo\obj\Release\MonteCarlo.pdb

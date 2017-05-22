@@ -1,5 +1,4 @@
 C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\SandboxPlayer\bin\Debug\SandboxPlayer.exe
-C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\SandboxPlayer\bin\Debug\SandboxPlayer.pdb
 C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\SandboxPlayer\bin\Debug\MinMax.dll
 C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\SandboxPlayer\bin\Debug\MonteCarlo.dll
 C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\SandboxPlayer\bin\Debug\SandboxAlphaBeta.dll
@@ -15,3 +14,6 @@ C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\SandboxPlayer\bin\Debug\SandboxProofN
 C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\SandboxPlayer\obj\x86\Debug\SandboxPlayer.csprojResolveAssemblyReference.cache
 C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\SandboxPlayer\obj\x86\Debug\SandboxPlayer.exe
 C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\SandboxPlayer\obj\x86\Debug\SandboxPlayer.pdb
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\SandboxPlayer\bin\Debug\SandboxPlayer.pdb
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\SandboxPlayer\bin\Debug\OldAlphaBeta.dll
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\SandboxPlayer\bin\Debug\OldAlphaBeta.pdb

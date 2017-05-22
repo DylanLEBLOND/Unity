@@ -55,24 +55,25 @@ namespace MinMax
 			{
 				nodeCount++;
 
-				if (! Node.ListContainsNode (movesPlayed, children [i]))
-				{
-					neverPlayedNode.Add (i);
-				}		
+				if (children [i].getChildrenThreat () == 999999999)		// Suicide Move (with the node sort this will be the last node so we can stop now)
+					break;
 
-				if ((! children [i].stillAlive (!isGote) || children [i].getChildrenThreat() == -999999999) && ! Node.ListContainsNode (movesPlayed, children[i]))		// terminal node
+				if (Node.ListContainsNode (movesPlayed, children[i]))
+					continue;		// we will start an infinite loop
+
+				if (! Node.ListContainsNode (movesPlayed, children [i]))
+					neverPlayedNode.Add (i);
+
+				if ((! children [i].stillAlive (!isGote) || children [i].getChildrenThreat() == -999999999))		// winning node
 				{
 					foundNode = true;
 					selectedNode = i;
 					break;
 				}
 
-				//			Console.WriteLine ("Begin Search Node {0}", i);
-				//			Console.WriteLine (children[i].getStateToString());
 				children[i].setScore (Min (children[i], depth - 1, isGote));
-				//			Console.WriteLine ("Node index  = " + i + " | node  = " + children[i].getScore ().ToString () + " | Threat = " + children [i].getChildrenThreat().ToString());
 
-				if (children[i].getScore() > maxScore && children [i].getChildrenThreat() != 999999999 && ! Node.ListContainsNode (movesPlayed, children[i]))
+				if (children[i].getScore() > maxScore && children [i].getChildrenThreat() != 999999999)
 				{
 					maxScore = children[i].getScore();
 					foundNode = true;
@@ -80,10 +81,10 @@ namespace MinMax
 				}
 			}
 			tac = Environment.TickCount;
+
 			if (!foundNode && neverPlayedNode.Count > 0)
-			{
 				selectedNode = neverPlayedNode[new Random().Next (neverPlayedNode.Count)];
-			}
+
 			Console.WriteLine ("Sortie de l'algo MinMax. Node Index = " + selectedNode + " | Nodes Checked = " + nodeCount.ToString () + " | Duree = " + (tac - tic).ToString() + " ms (tic = " + tic.ToString() + " | tac = " + tac.ToString() + ")");
 			gameWorkflow += "Sortie de l'algo MinMax. Node Index = " + selectedNode + " | Nodes Checked = " + nodeCount.ToString () + " | Duree = " + (tac - tic).ToString() + " ms\n";
 

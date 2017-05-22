@@ -26,8 +26,8 @@
     <OutputPath>bin\Release</OutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <Externalconsole>true</Externalconsole>
     <PlatformTarget>x86</PlatformTarget>
+    <ConsolePause>false</ConsolePause>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -61,6 +61,10 @@
     <ProjectReference Include="..\MonteCarlo\MonteCarlo.csproj">
       <Project>{B811A677-607D-432D-8F14-364629733578}</Project>
       <Name>MonteCarlo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OldAlphaBeta\OldAlphaBeta.csproj">
+      <Project>{D2275785-73F5-45F2-9315-0F6BBFF83B2A}</Project>
+      <Name>OldAlphaBeta</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>

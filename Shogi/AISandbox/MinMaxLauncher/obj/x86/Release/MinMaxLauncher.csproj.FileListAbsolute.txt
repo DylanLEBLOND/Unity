@@ -1,0 +1,13 @@
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MinMaxLauncher\bin\Release\MinMax.dll
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MinMaxLauncher\bin\Release\SandboxAlphaBeta.dll
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MinMaxLauncher\bin\Release\SandboxNegaScout.dll
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MinMaxLauncher\bin\Release\SandboxProofNumberSearch.dll
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MinMaxLauncher\bin\Release\Tools.dll
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MinMaxLauncher\bin\Release\Tools.pdb
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MinMaxLauncher\bin\Release\MinMax.pdb
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MinMaxLauncher\bin\Release\SandboxNegaScout.pdb
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MinMaxLauncher\bin\Release\SandboxAlphaBeta.pdb
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MinMaxLauncher\bin\Release\SandboxProofNumberSearch.pdb
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MinMaxLauncher\obj\x86\Release\MinMaxLauncher.csprojResolveAssemblyReference.cache
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MinMaxLauncher\bin\Release\MinMaxLauncher.exe
+C:\Cygwin\home\Dylan\Unity\Shogi\AISandbox\MinMaxLauncher\obj\x86\Release\MinMaxLauncher.exe

@@ -38,6 +38,25 @@ public class PlayerHandler : MonoBehaviour
 		this._playerColor = playerColor;
 		this._playerType = playerType;
 		this._playerDifficulty = playerDifficulty;
+
+		switch (playerType)
+		{
+			case PlayerType.SECRET:
+				this._player = this.gameObject.AddComponent <MinMax>();
+				break;
+			case PlayerType.GLADIATOR:
+				this._player = this.gameObject.AddComponent <AlphaBeta>();
+				break;
+			case PlayerType.PREDATOR:
+				this._player = this.gameObject.AddComponent <NegaScout>();
+				break;
+			case PlayerType.TERMINATOR:
+				this._player = this.gameObject.AddComponent <ProofNumberSearch>();
+				break;
+			default:
+				break;
+		}
+
 		this._playerCurrentState = playerState.Waiting;
 	}
 
@@ -64,44 +83,19 @@ public class PlayerHandler : MonoBehaviour
 		if (this.playerCurrentState != playerState.ShouldPlay)
 			return;
 
-		switch (playerType)
-		{
-			case PlayerType.SECRET:
-				this._player = new MinMax ();
-				Debug.Log ("Entree de l'algo MinMax");
-				break;
-			case PlayerType.GLADIATOR:
-				this._player = new AlphaBeta ();
-				Debug.Log ("Entree de l'algo AlphaBeta");
-				break;
-			case PlayerType.PREDATOR:
-				this._player = new NegaScout ();
-				Debug.Log ("Entree de l'algo NegaScout");
-				break;
-			case PlayerType.TERMINATOR:
-				this._player = new ProofNumberSearch ();
-				Debug.Log ("Entree de l'algo ProofNumberSearch");
-				break;
-			default:
-				return;
-		}
-
-		this._player.Start (this._currentGameState, this._playerDifficulty, this.playerColor == GameColor.GOTE ? true : false, this._movesPlayed);
+		this._player.searchMove (this._currentGameState, this._playerDifficulty, this.playerColor == GameColor.GOTE ? true : false, this._movesPlayed);
 		this._playerCurrentState = playerState.Playing;
 		StartCoroutine ("checkMove");
 	}
 
 	private IEnumerator checkMove ()
 	{
-		while (!this._player.Update ())
+		while (! this._player.moveReady())
 		{
 			if (this._playerCurrentState != playerState.Playing)
 				yield break;
-			yield return null;
+			yield return new WaitForSeconds (0.1f);
 		}
-
-		Debug.Log (this._player.childInfo);
-		Debug.Log ("Sortie de l'algo de recherche. Nodes Checked = " + this._player.nodeCount.ToString () + " | Duree = " + this._player.duration.ToString() + " ms | Score du noeud selectionne = " + this._player.nodeScore.ToString () + " | Threat = " + this._player.nodeThreat.ToString());
 
 		this._currentGameState = null;
 		this._movesPlayed.Clear ();
@@ -112,7 +106,7 @@ public class PlayerHandler : MonoBehaviour
 	{
 		this._playerCurrentState = playerState.Cancelling;
 
-		this._player.Abort ();
+		//TODO
 
 		this._playerCurrentState = playerState.Waiting;
 	}

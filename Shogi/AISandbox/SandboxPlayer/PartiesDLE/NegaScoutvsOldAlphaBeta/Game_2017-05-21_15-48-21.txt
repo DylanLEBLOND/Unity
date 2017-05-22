@@ -1,0 +1,18 @@
+********** Partie 9 **********
+********** Gote Algorithm: NegaScout | Sente Algorithm: Old AlphaBeta | Depth: 3 **********
+root Gote score = -999999999
+root Sente score = -999999999
+root Gote Captured Tokens = { }
+root Sente Captured Tokens = { }
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+********** Turn 10 Gote Playing **********
+CRITICAL ERROR: Null Move returned
+Game Duration: 0 ms

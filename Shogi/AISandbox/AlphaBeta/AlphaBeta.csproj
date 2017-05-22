@@ -5,8 +5,8 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProjectGuid>{AD986D13-762A-4D39-AA9C-C327F310A811}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>SandboxAlphaBeta</RootNamespace>
-    <AssemblyName>SandboxAlphaBeta</AssemblyName>
+    <RootNamespace>AlphaBeta</RootNamespace>
+    <AssemblyName>AlphaBeta</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">

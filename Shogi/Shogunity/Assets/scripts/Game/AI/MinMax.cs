@@ -1,111 +1,62 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine;
 using Tools;
 
-public class MinMax : IPlayer
+public class MinMax : MonoBehaviour, IPlayer
 {
-	public MinMax () { }
+	private string minMaxPath;
+	private string rootPath;
+	private string movesPlayedPath;
+	private string resultPath;
+	private Process minmaxProcess;
+	private bool _moveReady = false;
+	private Node _bestMove = null;
 
-	protected override void RunAlgorithm (Node root, int depth, bool isGote, List<Node> movesPlayed)
+	void Awake ()
 	{
-		this._bestMove = runMinMax (root, depth, isGote, movesPlayed);
+		this.minMaxPath = Application.streamingAssetsPath + "/MinMaxLauncher.exe";
+		this.rootPath = Application.streamingAssetsPath + "/Root" + new System.Random (Environment.TickCount).Next() + ".xml";
+		this.movesPlayedPath = Application.streamingAssetsPath + "/MovesPlayed" + new System.Random (Environment.TickCount).Next() + ".xml";
+		this.resultPath = Application.streamingAssetsPath + "/Result" + new System.Random (Environment.TickCount).Next() + ".xml";
 	}
 
-	private Node runMinMax (Node root, int depth, bool isGote, List<Node> movesPlayed)
+	public void searchMove (Node root, int depth, bool isGote, List<Node> movesPlayed)
 	{
-		List <Node> children;
-		int maxScore= int.MinValue;
-		int selectedNode;
-		bool foundNode;
-		List<int> neverPlayedNode;
-		int tic;
-		int tac;
+		SerializeNode.Serialize (root, rootPath);
+		SerializeNode.SerializeList (movesPlayed, movesPlayedPath);
 
-		this.nodeCount = 0;
+		ProcessStartInfo processInfo = new ProcessStartInfo (this.minMaxPath);
+		processInfo.Arguments = this.rootPath + " " + depth.ToString () + " " + isGote.ToString () + " " + this.movesPlayedPath + " " + this.resultPath;
+		processInfo.CreateNoWindow = true;
+		processInfo.UseShellExecute = false;
 
-		root.createChildren (isGote, true /* canDrop */, true /* sort */);
-		if (root.getChildren ().Count == 0)
-			return null;
-		
-		children = new List<Node> (root.getChildren ());
-		root.clearChildren ();
+		this._bestMove = null;
+		this._moveReady = false;
+		this.minmaxProcess = Process.Start (processInfo);
 
-		selectedNode = 0;
-		foundNode = false;
-		neverPlayedNode = new List<int>();
-
-		tic = Environment.TickCount;
-		for (int i = 0; i < children.Count; i++)
-		{
-			this.nodeCount++;
-
-			if (! Node.ListContainsNode (movesPlayed, children [i]))
-				neverPlayedNode.Add (i);
-
-			if ((! children [i].stillAlive (!isGote) || children [i].getChildrenThreat() == -999999999) && ! Node.ListContainsNode (movesPlayed, children[i]))		// terminal node
-			{
-				foundNode = true;
-				selectedNode = i;
-				break;
-			}
-
-			children[i].setScore (Min (children[i], depth - 1, isGote));
-
-			if (children[i].getScore() > maxScore && children [i].getChildrenThreat() != 999999999 && ! Node.ListContainsNode (movesPlayed, children[i]))
-			{
-				maxScore = children[i].getScore();
-				foundNode = true;
-				selectedNode = i;
-			}
-		}
-		tac = Environment.TickCount;
-
-		if (!foundNode && neverPlayedNode.Count > 0)
-			selectedNode = neverPlayedNode[new System.Random().Next (neverPlayedNode.Count)];
-
-		this.duration = tac - tic;
-		this.nodeScore = children [selectedNode].getScore ();
-		this.nodeThreat = children [selectedNode].getChildrenThreat ();
-
-		return children [selectedNode];
+		StartCoroutine ("WaitingForResponse");
 	}
 
-	private int Min (Node node, int depth, bool isGote)
+	private IEnumerator WaitingForResponse ()
 	{
-		List <Node> children;
-		int score = int.MaxValue;
+		while (! this.minmaxProcess.HasExited)
+			yield return new WaitForSeconds (0.1f);
 
-		node.createChildren (!isGote, true /* canDrop */, false /* sort */);
-		if (depth <= 0 || ! node.stillAlive (isGote) || ! node.stillAlive (!isGote) || node.getChildren().Count == 0)		// terminal node
-			return node.evaluate (isGote);
-
-		children = new List<Node> (node.getChildren());
-		node.clearChildren ();
-
-		this.nodeCount++;
-		for (int i = 0; i < children.Count; i++)
-			score = Math.Min (score, Max (children[i], depth - 1, isGote));
-
-		return score;
+		this._bestMove = SerializeNode.Deserialize (this.resultPath);
+		this._moveReady = true;
 	}
 
-	private int Max (Node node, int depth, bool isGote)
+	public bool moveReady ()
 	{
-		List <Node> children;
-		int score = int.MinValue;
+		return this._moveReady;
+	}
 
-		node.createChildren (isGote, true /* canDrop */, false /* sort */);
-		if (depth <= 0 || ! node.stillAlive (isGote) || ! node.stillAlive (!isGote) || node.getChildren().Count == 0)		// terminal node
-			return node.evaluate (isGote);
-
-		children = new List<Node> (node.getChildren());
-		node.clearChildren ();
-
-		this.nodeCount++;
-		for (int i = 0; i < children.Count; i++)
-			score = Math.Max (score, Min (children[i], depth - 1, isGote));
-
-		return score;
+	public Node getBestMove ()
+	{
+		this._moveReady = false;
+		return this._bestMove;
 	}
 }

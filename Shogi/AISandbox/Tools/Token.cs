@@ -5,6 +5,7 @@ using System.Collections.Generic;
 
 namespace Tools
 {
+	[Serializable]
 	public class Token
 	{
 		// GOTE TOKENS
@@ -100,6 +101,43 @@ namespace Tools
 					return C_ROOK;
 				default:
 					return 0;
+			}
+		}
+
+		public static bool isAPromotableToken (TokenType token)
+		{
+			switch (token)
+			{
+				case TokenType.PAWN:
+				case TokenType.LANCE:
+				case TokenType.KNIGHT:
+				case TokenType.SILVER:
+				case TokenType.BISHOP:
+				case TokenType.ROOK:
+					return true;
+				default:
+					return false;
+			}
+		}
+
+		public static TokenType getPromotedTokenType (TokenType token)
+		{
+			switch (token)
+			{
+				case TokenType.PAWN:
+					return TokenType.PROMOTED_PAWN;
+				case TokenType.LANCE:
+					return TokenType.PROMOTED_LANCE;
+				case TokenType.KNIGHT:
+					return TokenType.PROMOTED_KNIGHT;
+				case TokenType.SILVER:
+					return TokenType.PROMOTED_SILVER;
+				case TokenType.BISHOP:
+					return TokenType.PROMOTED_BISHOP;
+				case TokenType.ROOK:
+					return TokenType.PROMOTED_ROOK;
+				default:
+					return TokenType.UNDEFINED;
 			}
 		}
 
@@ -274,7 +312,7 @@ namespace Tools
 			}
 		}
 
-
+		[Serializable]
 		public struct TokenInfo
 		{
 			public Token.TokenType tokenType;

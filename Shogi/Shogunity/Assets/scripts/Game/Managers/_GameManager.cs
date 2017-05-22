@@ -55,18 +55,18 @@ public class _GameManager : MonoBehaviour
 		else
 			Destroy (this);
 	}
-//#if false
-	public static int [,] defaultState = { {      0       ,       0       ,       0       ,      0      ,      0      ,      0      ,       0       ,        0      ,      0       },
-										{      0       ,       0       ,       0       ,      0      ,      0      ,      0      ,       0       ,        0      ,      0       },
-										{      0       ,       0       ,       0       ,      0      ,      0      ,      0      ,       0       ,        0      ,      0       },
-										{      0       ,       0       ,       0       ,      0      ,      0      ,      0      ,       0       ,        0      ,      0       },
-										{      0       ,       0       ,       0       ,      0      ,      0      ,      0      ,       0       ,        0      ,      0       },
-										{      0       ,       0       ,       0       ,      0      , Token.KING  ,      0      ,       0       ,        0      ,      0       },
-										{      0       ,       0       ,       0       ,      0      , Token.SROOK ,      0      ,       0       ,        0      ,      0       },
-										{      0       , Token.GBISHOP ,       0       ,      0      ,      0      ,      0      ,       0       ,        0      ,      0       },
-										{ Token.SPAWN  ,       0       ,  Token.SPAWN  , Token.JEWEL ,      0      ,      0      ,       0       ,        0      ,      0       } };
-//#endif
 #if false
+	public static int [,] defaultState = { {      0       ,       0       ,       0       ,      0      ,      0      , Token.KING  ,  Token.GPAWN  ,        0      , Token.GPAWN  },
+										   {      0       ,       0       ,       0       ,      0      ,      0      ,      0      ,       0       , Token.SBISHOP ,      0       },
+										   {      0       ,       0       ,       0       ,      0      , Token.GROOK ,      0      ,       0       ,        0      ,      0       },
+										   {      0       ,       0       ,       0       ,      0      , Token.JEWEL ,      0      ,       0       ,        0      ,      0       },
+										   {      0       ,       0       ,       0       ,      0      ,      0      ,      0      ,       0       ,        0      ,      0       },
+										   {      0       ,       0       ,       0       ,      0      ,      0      ,      0      ,       0       ,        0      ,      0       },
+										   {      0       ,       0       ,       0       ,      0      ,      0      ,      0      ,       0       ,        0      ,      0       },
+										   {      0       ,       0       ,       0       ,      0      ,      0      ,      0      ,       0       ,        0      ,      0       },
+										   {      0       ,       0       ,       0       ,      0      ,      0      ,      0      ,       0       ,        0      ,      0       } };
+#endif
+//#if false
 	public static int [,] defaultState = { { Token.GLANCE , Token.GKNIGHT , Token.GSILVER , Token.GGOLD , Token.KING  , Token.GGOLD , Token.GSILVER , Token.GKNIGHT , Token.GLANCE },
 										   {      0       , Token.GBISHOP ,       0       ,      0      ,      0      ,      0      ,       0       ,  Token.GROOK  ,      0       },
 										   { Token.GPAWN  ,  Token.GPAWN  ,  Token.GPAWN  , Token.GPAWN , Token.GPAWN , Token.GPAWN ,  Token.GPAWN  ,  Token.GPAWN  , Token.GPAWN  },
@@ -76,7 +76,7 @@ public class _GameManager : MonoBehaviour
 										   { Token.SPAWN  ,  Token.SPAWN  ,  Token.SPAWN  , Token.SPAWN , Token.SPAWN , Token.SPAWN ,  Token.SPAWN  ,  Token.SPAWN  , Token.SPAWN  },
 										   {      0       ,  Token.SROOK  ,       0       ,      0      ,      0      ,      0      ,       0       , Token.SBISHOP ,      0       },
 										   { Token.SLANCE , Token.SKNIGHT , Token.SSILVER , Token.SGOLD , Token.JEWEL , Token.SGOLD , Token.SSILVER , Token.SKNIGHT , Token.SLANCE } };
-#endif
+//#endif
 
 	void Start ()
 	{
@@ -103,7 +103,16 @@ public class _GameManager : MonoBehaviour
 		this.currentPlayerHUD.GetComponent <Text>().text = (this.currentPlayerIndex == 1 ? this.player1.playerName : this.player2.playerName).ToString() + " Turn";
 
 		this.currentState = new Node ();
-		this.currentState.setState (ref defaultState);
+
+		int [][] jaggedTestState = new int [9][];
+		for (int i = 0; i < 9; i++)
+			jaggedTestState [i] = new int[9];
+
+		for (int i = 0; i < 9; i++)
+			for (int j = 0; j < 9; j++)
+				jaggedTestState [i][j] = defaultState[i,j];
+
+		this.currentState.setState (ref jaggedTestState);
 
 		_GameBoard.instance.textureToUse = this.textures [_GameConfig.instance.TextureID];
 		_GameBoard.instance.setCurrentState (this.currentState);
@@ -133,7 +142,10 @@ public class _GameManager : MonoBehaviour
 
 		Node oldMove;
 		Node oldNode;
-		int[,] oldState = new int[9,9];;
+		int [][] oldState = new int[9][];
+		for (int i = 0; i < 9; i++)
+			oldState [i] = new int[9]; 
+
 		Token.TokenInfo oldInfo;
 		Token.TokenInfo newInfo = new Token.TokenInfo ();
 
@@ -209,6 +221,7 @@ public class _GameManager : MonoBehaviour
 	public void Promotion (bool ok)
 	{
 		this._promote = ok;
+		Debug.Log ("this._promote = " + this._promote + " | ok = " + ok);
 
 		this.promotionMenu.SetActive (false);
 		this._gameInProgress = true;
@@ -218,7 +231,7 @@ public class _GameManager : MonoBehaviour
 
 	public bool Promote ()
 	{
-		return !this._promote;
+		return this._promote;
 	}
 
 	public void Pause (bool paused)
@@ -254,7 +267,14 @@ public class _GameManager : MonoBehaviour
 		this._undoMoves.Clear ();
 
 		this.currentState = new Node ();
-		this.currentState.setState (ref defaultState);
+		int [][] jaggedTestState = new int [9][];
+		for (int i = 0; i < 9; i++)
+			jaggedTestState [i] = new int[9];
+
+		for (int i = 0; i < 9; i++)
+			for (int j = 0; j < 9; j++)
+				jaggedTestState [i][j] = defaultState[i,j];
+		this.currentState.setState (ref jaggedTestState);
 
 		_GameBoard.instance.setCurrentState (this.currentState);
 		_GameBoard.instance.reInit ();
@@ -310,7 +330,7 @@ public class _GameManager : MonoBehaviour
 
 		if (info.capturedSomething)
 		{
-			if (this.currentPlayerIndex == 1)
+			if (info.capturedValue < 0)
 				this.player1Score -= info.capturedValue;
 			else
 				this.player2Score += info.capturedValue;
@@ -391,7 +411,6 @@ public class _GameManager : MonoBehaviour
 	void Update ()
 	{
 		this.updateHUD ();
-		this._promote = false;
 
 		if (!this._gameInProgress || this._undoRequired)
 			return;

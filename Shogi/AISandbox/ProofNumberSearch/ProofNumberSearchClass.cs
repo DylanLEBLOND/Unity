@@ -46,7 +46,8 @@ namespace ProofNumberSearch
 			//Console.WriteLine ("root proof value :"+root._proof+" disproof value : "+root._disproof);
 			Node current = root;
 
-			while (root.getProof () != 0 && root.getDisproof () != 0 && tac < 5000) {
+			while (root.getProof () != 0 && root.getDisproof () != 0 && tac < 10000)
+			{
 				Node mostProving = selectMostProvingNode (current, depth, isGote);
 				current = updateAncestors (mostProving, root, isGote);
 
@@ -91,6 +92,7 @@ namespace ProofNumberSearch
 				bestNode = selectionByScore (neverPlayedNode, isGote);
 				//bestNode = getNodeLowThreat(neverPlayedNode, isGote);
 			}
+			tac = Environment.TickCount;
 
 			// ------------------------------------------------------------------------------
 			Console.WriteLine ("Best Node : Proof number = " + bestNode.getProof() + " Disproof number = " + bestNode.getDisproof());  

@@ -1,0 +1,1205 @@
+********** Partie 9 **********
+********** Gote Algorithm: ProofNumberSearch | Sente Algorithm: AlphaBeta | Depth: 4 **********
+root Gote score = 0
+root Sente score = 0
+root Gote Captured Tokens = { }
+root Sente Captured Tokens = { }
+ 430  |  450  |  640  |  690  |  4720 |  690  |  640  |  450  |  430 
+      |  890  |       |       |       |       |       |  1040 |      
+ 100  |  100  |  100  |  100  |  100  |  100  |  100  |  100  |  100 
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100
+      | -1040 |       |       |       |       |       |  -890 |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |  -450 |  -430
+********** Turn 1 Gote Playing **********
+Gote score = 100
+Sente score = -100
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 10000 ms
+ 430  |  450  |  640  |  690  |  4720 |  690  |  640  |  450  |  430 
+      |  890  |       |       |  1040 |       |       |       |      
+ 100  |  100  |  100  |  100  |  100  |  100  |  100  |  100  |  100 
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+ -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -100
+      | -1040 |       |       |       |       |       |  -890 |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |  -450 |  -430
+********** Turn 2 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 8254 | Duree = 1373 ms
+Score du noeud selectionne : -90 | Threat = 2085
+Gote score = 100
+Sente score = -100
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 1373 ms
+ 430  |  450  |  640  |  690  |  4720 |  690  |  640  |  450  |  430 
+      |  890  |       |       |  1040 |       |       |       |      
+ 100  |  100  |  100  |  100  |  100  |  100  |  100  |  100  |  100 
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |  -100 |  -100 |       |  -100 |  -100
+      | -1040 |       |       |       |       |       |  -890 |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |  -450 |  -430
+********** Turn 3 Gote Playing **********
+Gote score = 140
+Sente score = -140
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 10015 ms
+ 430  |  450  |  640  |  690  |  4720 |  690  |  640  |  450  |  430 
+      |  890  |       |       |  1040 |       |       |       |      
+ 100  |  100  |  100  |  100  |       |  100  |  100  |  100  |  100 
+      |       |       |       |  100  |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |  -100 |  -100 |       |  -100 |  -100
+      | -1040 |       |       |       |       |       |  -890 |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |  -450 |  -430
+********** Turn 4 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 36302 | Duree = 5819 ms
+Score du noeud selectionne : 90 | Threat = 3345
+Gote score = 140
+Sente score = -140
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 5819 ms
+ 430  |  450  |  640  |  690  |  4720 |  690  |  640  |  450  |  430 
+      |  890  |       |       |  1040 |       |       |       |      
+ 100  |  100  |  100  |  100  |       |  100  |  100  |  100  |  100 
+      |       |       |       |  100  |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |  -890 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |  -100 |  -100 |       |  -100 |  -100
+      | -1040 |       |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |  -450 |  -430
+********** Turn 5 Gote Playing **********
+Gote score = 180
+Sente score = -180
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 10015 ms
+ 430  |  450  |  640  |  690  |  4720 |  690  |  640  |  450  |  430 
+      |  890  |       |       |  1040 |       |       |       |      
+ 100  |  100  |  100  |  100  |       |  100  |  100  |  100  |  100 
+      |       |       |       |       |       |       |       |      
+      |       |       |       |  100  |       |       |       |      
+      |       |       |       |       |  -890 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |  -100 |  -100 |       |  -100 |  -100
+      | -1040 |       |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |  -450 |  -430
+********** Turn 6 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 22649 | Duree = 1716 ms
+Score du noeud selectionne : 220 | Threat = -6515
+Gote score = -220
+Sente score = 220
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 1716 ms
+ 430  |  450  |  640  |  690  |  4720 |  690  |  640  |  450  |  430 
+      |  890  |       |       |  1040 |       |       |       |      
+ 100  |  100  |  100  |  100  |       |  100  |  100  |  100  |  100 
+      |       |       |       |       |       |       |       |      
+      |       |       |       |  100  |       |       |       |      
+      |       |       |       |       |  -890 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |  -100 |  -100 |       |  -100 |  -100
+      |       |       |       | -1040 |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |  -450 |  -430
+********** Turn 7 Gote Playing **********
+Gote score = -10
+Sente score = 10
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 10000 ms
+ 430  |  450  |  640  |  690  |       |  690  |  640  |  450  |  430 
+      |  890  |       |  4720 |  1040 |       |       |       |      
+ 100  |  100  |  100  |  100  |       |  100  |  100  |  100  |  100 
+      |       |       |       |       |       |       |       |      
+      |       |       |       |  100  |       |       |       |      
+      |       |       |       |       |  -890 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |  -100 |  -100 |       |  -100 |  -100
+      |       |       |       | -1040 |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |  -450 |  -430
+********** Turn 8 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 18757 | Duree = 1809 ms
+Score du noeud selectionne : 410 | Threat = -18085
+Gote score = -610
+Sente score = 610
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 1809 ms
+ 430  |  450  |  640  |  690  |       |  690  |  640  |  450  |  430 
+      |  890  |       |  4720 |  1040 |       |       |       |      
+ 100  |  100  |  100  |  100  |       |  100  |  100  |  100  |  100 
+      |       |       |       |       |       |       |       |      
+      |       |       |       |  100  |       |  -890 |       |      
+      |       |       |       |       |       |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |  -100 |  -100 |       |  -100 |  -100
+      |       |       |       | -1040 |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |  -450 |  -430
+********** Turn 9 Gote Playing **********
+Gote score = -10
+Sente score = 10
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 10000 ms
+ 430  |  450  |  640  |  690  |       |  690  |  640  |  450  |  430 
+      |  890  |  4720 |       |  1040 |       |       |       |      
+ 100  |  100  |  100  |  100  |       |  100  |  100  |  100  |  100 
+      |       |       |       |       |       |       |       |      
+      |       |       |       |  100  |       |  -890 |       |      
+      |       |       |       |       |       |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |  -100 |  -100 |       |  -100 |  -100
+      |       |       |       | -1040 |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |  -450 |  -430
+********** Turn 10 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 27374 | Duree = 6146 ms
+Score du noeud selectionne : 470 | Threat = -2625
+Gote score = -60
+Sente score = 60
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 6146 ms
+ 430  |  450  |  640  |  690  |       |  690  |  640  |  450  |  430 
+      |  890  |  4720 |       |  1040 |       |       |       |      
+ 100  |  100  |  100  |  100  |       |  100  |  100  |  100  |  100 
+      |       |       |       |       |       |       |       |      
+      |       |       |       |  100  |       |  -890 |       |      
+      |       |       |       |       |       |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -450 |  -100 |  -100
+      |       |       |       | -1040 |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 11 Gote Playing **********
+Gote score = -20
+Sente score = 20
+Gote Captured Tokens = { }
+Sente Captured Tokens = { }
+Turn Duration: 10062 ms
+ 430  |  450  |  640  |  690  |       |  690  |  640  |  450  |  430 
+      |  890  |  4720 |       |  1040 |       |       |       |      
+ 100  |  100  |  100  |  100  |       |  100  |  100  |  100  |  100 
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |  -890 |       |      
+      |       |       |       |  100  |       |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |  -100 |  -100 |  -450 |  -100 |  -100
+      |       |       |       | -1040 |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 12 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 28219 | Duree = 6240 ms
+Score du noeud selectionne : 670 | Threat = -13025
+Gote score = -420
+Sente score = 420
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN
+Turn Duration: 6240 ms
+ 430  |  450  |  640  |  690  |       |  690  |  640  |  450  |  430 
+      |  890  |  4720 |       |  1040 |       |       |       |      
+ 100  |  100  |  100  |  100  |       |  100  |  100  |  100  |  100 
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |  -890 |       |      
+      |       |       |       |  -100 |       |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |  -100 |  -450 |  -100 |  -100
+      |       |       |       | -1040 |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 13 Gote Playing **********
+Gote score = 80
+Sente score = -80
+Gote Captured Tokens = PAWN
+Sente Captured Tokens = PAWN
+Turn Duration: 10000 ms
+ 430  |  450  |  640  |  690  |       |  690  |  640  |  450  |  430 
+      |  890  |  4720 |       |       |       |       |       |      
+ 100  |  100  |  100  |  100  |       |  100  |  100  |  100  |  100 
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |  -890 |       |      
+      |       |       |       |  1040 |       |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |  -100 |  -450 |  -100 |  -100
+      |       |       |       | -1040 |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 14 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 19818 | Duree = 2418 ms
+Score du noeud selectionne : 2590 | Threat = -68935
+Gote score = -2400
+Sente score = 2400
+Gote Captured Tokens = PAWN
+Sente Captured Tokens = PAWN | ROOK
+Turn Duration: 2418 ms
+ 430  |  450  |  640  |  690  |       |  690  |  640  |  450  |  430 
+      |  890  |  4720 |       |       |       |       |       |      
+ 100  |  100  |  100  |  100  |       |  100  |  100  |  100  |  100 
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |  -890 |       |      
+      |       |       |       | -1040 |       |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |  -100 |  -450 |  -100 |  -100
+      |       |       |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 15 Gote Playing **********
+Gote score = -2375
+Sente score = 2375
+Gote Captured Tokens = PAWN
+Sente Captured Tokens = PAWN | ROOK
+Turn Duration: 530 ms
+ 430  |  450  |  640  |  690  |       |       |  640  |  450  |  430 
+      |  890  |  4720 |       |       |  690  |       |       |      
+ 100  |  100  |  100  |  100  |       |  100  |  100  |  100  |  100 
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |  -890 |       |      
+      |       |       |       | -1040 |       |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |  -100 |  -450 |  -100 |  -100
+      |       |       |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 16 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 127436 | Duree = 29235 ms
+Score du noeud selectionne : 2895 | Threat = -79310
+Gote score = -2775
+Sente score = 2775
+Gote Captured Tokens = PAWN
+Sente Captured Tokens = PAWN | ROOK
+Turn Duration: 29235 ms
+ 430  |  450  |  640  |  690  |       |       |  640  |  450  |  430 
+      |  890  |  4720 |       |       |  690  |       |       |      
+ 100  |  100  |  100  |  100  |       |  100  |  100  |  100  |  100 
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |  -890 |       |      
+      |       | -1040 |       |       |       |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |  -100 |  -450 |  -100 |  -100
+      |       |       |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 17 Gote Playing **********
+Gote score = -2800
+Sente score = 2800
+Gote Captured Tokens = PAWN
+Sente Captured Tokens = PAWN | ROOK
+Turn Duration: 515 ms
+ 430  |  450  |  640  |  690  |       |  690  |  640  |  450  |  430 
+      |  890  |  4720 |       |       |       |       |       |      
+ 100  |  100  |  100  |  100  |       |  100  |  100  |  100  |  100 
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |  -890 |       |      
+      |       | -1040 |       |       |       |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |  -100 |  -450 |  -100 |  -100
+      |       |       |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 18 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 51216 | Duree = 25631 ms
+Score du noeud selectionne : 3580 | Threat = -87355
+Gote score = -3060
+Sente score = 3060
+Gote Captured Tokens = PAWN
+Sente Captured Tokens = PAWN | ROOK
+Turn Duration: 25631 ms
+ 430  |  450  |  640  |  690  |       |  690  |  640  |  450  |  430 
+      |  890  |  4720 |       |       |       |       |       |      
+ 100  |  100  |  100  |  100  | -1150 |  100  |  100  |  100  |  100 
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |       |       |       |      
+      |       | -1040 |       |       |       |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |  -100 |  -450 |  -100 |  -100
+      |       |       |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 19 Gote Playing **********
+Gote score = -3060
+Sente score = 3060
+Gote Captured Tokens = PAWN
+Sente Captured Tokens = PAWN | ROOK
+Turn Duration: 515 ms
+ 430  |  450  |  640  |  690  |       |  690  |  640  |  450  |  430 
+      |  890  |  4720 |       |       |       |       |       |      
+ 100  |  100  |  100  |  100  | -1150 |  100  |       |  100  |  100 
+      |       |       |       |       |       |  100  |       |      
+      |       |       |       |       |       |       |       |      
+      |       | -1040 |       |       |       |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |  -100 |  -450 |  -100 |  -100
+      |       |       |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 20 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 55096 | Duree = 20327 ms
+Score du noeud selectionne : 3720 | Threat = -112185
+Gote score = -3260
+Sente score = 3260
+Gote Captured Tokens = PAWN
+Sente Captured Tokens = PAWN | ROOK | PAWN
+Turn Duration: 20327 ms
+ 430  |  450  |  640  |  690  |       |  690  |  640  |  450  |  430 
+      |  890  |  4720 |       |       |       |       |       |      
+ 100  |  100  |  100  |  100  |       | -1150 |       |  100  |  100 
+      |       |       |       |       |       |  100  |       |      
+      |       |       |       |       |       |       |       |      
+      |       | -1040 |       |       |       |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |  -100 |  -450 |  -100 |  -100
+      |       |       |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 21 Gote Playing **********
+Gote score = -3260
+Sente score = 3260
+Gote Captured Tokens = PAWN
+Sente Captured Tokens = PAWN | ROOK | PAWN
+Turn Duration: 765 ms
+ 430  |  450  |  640  |  690  |       |  690  |  640  |  450  |  430 
+      |  890  |  4720 |       |       |       |       |       |      
+ 100  |  100  |       |  100  |       | -1150 |       |  100  |  100 
+      |       |  100  |       |       |       |  100  |       |      
+      |       |       |       |       |       |       |       |      
+      |       | -1040 |       |       |       |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |  -100 |  -450 |  -100 |  -100
+      |       |       |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 22 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 132080 | Duree = 36894 ms
+Score du noeud selectionne : 3720 | Threat = -131685
+Gote score = -3260
+Sente score = 3260
+Gote Captured Tokens = PAWN
+Sente Captured Tokens = PAWN | ROOK | PAWN
+Turn Duration: 36894 ms
+ 430  |  450  |  640  |  690  |       |  690  |  640  |  450  |  430 
+      |  890  |  4720 |       |       |       |       |       |      
+ 100  |  100  |       |  100  |       | -1150 |       |  100  |  100 
+      |       |  100  |       |       |       |  100  |       |      
+      |       |       |       |       |       |       |       |      
+      |       | -1040 |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       |       |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 23 Gote Playing **********
+Gote score = -3260
+Sente score = 3260
+Gote Captured Tokens = PAWN
+Sente Captured Tokens = PAWN | ROOK | PAWN
+Turn Duration: 1107 ms
+ 430  |  450  |  640  |  690  |  690  |       |  640  |  450  |  430 
+      |  890  |  4720 |       |       |       |       |       |      
+ 100  |  100  |       |  100  |       | -1150 |       |  100  |  100 
+      |       |  100  |       |       |       |  100  |       |      
+      |       |       |       |       |       |       |       |      
+      |       | -1040 |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       |       |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 24 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 101374 | Duree = 9189 ms
+Score du noeud selectionne : 4595 | Threat = -164475
+Gote score = -4160
+Sente score = 4160
+Gote Captured Tokens = PAWN
+Sente Captured Tokens = PAWN | ROOK | PAWN | KNIGHT
+Turn Duration: 9189 ms
+ 430  |  450  |  640  |  690  |  690  |       |  640  | -1150 |  430 
+      |  890  |  4720 |       |       |       |       |       |      
+ 100  |  100  |       |  100  |       |       |       |  100  |  100 
+      |       |  100  |       |       |       |  100  |       |      
+      |       |       |       |       |       |       |       |      
+      |       | -1040 |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       |       |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 25 Gote Playing **********
+Gote score = -4135
+Sente score = 4135
+Gote Captured Tokens = PAWN
+Sente Captured Tokens = PAWN | ROOK | PAWN | KNIGHT
+Turn Duration: 1419 ms
+ 430  |  450  |       |  690  |  690  |       |  640  | -1150 |  430 
+      |  890  |  4720 |  640  |       |       |       |       |      
+ 100  |  100  |       |  100  |       |       |       |  100  |  100 
+      |       |  100  |       |       |       |  100  |       |      
+      |       |       |       |       |       |       |       |      
+      |       | -1040 |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       |       |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 26 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 132067 | Duree = 14493 ms
+Score du noeud selectionne : 5255 | Threat = -209595
+Gote score = -5415
+Sente score = 5415
+Gote Captured Tokens = PAWN
+Sente Captured Tokens = PAWN | ROOK | PAWN | KNIGHT | SILVER
+Turn Duration: 14493 ms
+ 430  |  450  |       |  690  |  690  |       | -1150 |       |  430 
+      |  890  |  4720 |  640  |       |       |       |       |      
+ 100  |  100  |       |  100  |       |       |       |  100  |  100 
+      |       |  100  |       |       |       |  100  |       |      
+      |       |       |       |       |       |       |       |      
+      |       | -1040 |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       |       |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 27 Gote Playing **********
+Gote score = -5415
+Sente score = 5415
+Gote Captured Tokens = PAWN
+Sente Captured Tokens = PAWN | ROOK | PAWN | KNIGHT | SILVER
+Turn Duration: 1763 ms
+ 430  |  450  |       |  690  |  690  |       | -1150 |       |  430 
+      |  890  |  4720 |  640  |       |       |       |       |      
+ 100  |  100  |       |  100  |       |       |       |  100  |  100 
+      |       |       |       |       |       |  100  |       |      
+      |       |  100  |       |       |       |       |       |      
+      |       | -1040 |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       |       |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 28 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 284098 | Duree = 122523 ms
+Score du noeud selectionne : 5455 | Threat = -234240
+Gote score = -5615
+Sente score = 5615
+Gote Captured Tokens = PAWN
+Sente Captured Tokens = PAWN | ROOK | PAWN | KNIGHT | SILVER | PAWN
+Turn Duration: 122523 ms
+ 430  |  450  |       |  690  |  690  |       |       |       |  430 
+      |  890  |  4720 |  640  |       |       |       |       |      
+ 100  |  100  |       |  100  |       |       |       |  100  |  100 
+      |       |       |       |       |       |  100  |       |      
+      |       | -1150 |       |       |       |       |       |      
+      |       | -1040 |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       |       |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 29 Gote Playing **********
+Gote score = -5615
+Sente score = 5615
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | ROOK | PAWN | KNIGHT | SILVER | PAWN
+Turn Duration: 1981 ms
+ 430  |  450  |       |  690  |  690  |       |       |       |  430 
+      |  890  |  4720 |  640  |       |  100  |       |       |      
+ 100  |  100  |       |  100  |       |       |       |  100  |  100 
+      |       |       |       |       |       |  100  |       |      
+      |       | -1150 |       |       |       |       |       |      
+      |       | -1040 |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       |       |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 30 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 210232 | Duree = 15257 ms
+Score du noeud selectionne : 6795 | Threat = -139685
+Gote score = -5840
+Sente score = 5840
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | ROOK | PAWN | SILVER | PAWN
+Turn Duration: 15257 ms
+ 430  |  450  |       |  690  |  690  |       |       |       |  430 
+      |  890  |  4720 |  640  |       |  100  |       |       |      
+ 100  |  100  |       |  100  |       |       |       |  100  |  100 
+      |       |  -450 |       |       |       |  100  |       |      
+      |       | -1150 |       |       |       |       |       |      
+      |       | -1040 |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       |       |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 31 Gote Playing **********
+Gote score = -5840
+Sente score = 5840
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | ROOK | PAWN | SILVER | PAWN
+Turn Duration: 671 ms
+ 430  |  450  |       |  690  |  690  |       |       |       |  430 
+      |  890  |  4720 |  640  |       |  100  |       |       |      
+ 100  |  100  |       |       |       |       |       |  100  |  100 
+      |       |  -450 |  100  |       |       |  100  |       |      
+      |       | -1150 |       |       |       |       |       |      
+      |       | -1040 |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       |       |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 32 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 179149 | Duree = 25100 ms
+Score du noeud selectionne : 7275 | Threat = -142560
+Gote score = -6240
+Sente score = 6240
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | SILVER | PAWN
+Turn Duration: 25100 ms
+ 430  |  450  |       |  690  |  690  |       |       |       |  430 
+      |  890  |  4720 |  640  |       |  100  |       |       |      
+ 100  |  100  |       |       |       |       |       |  100  |  100 
+      |       |  -450 |  100  |       |       |  100  |       |      
+      |       | -1150 |       |       |       |       |       |      
+      |       | -1040 |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 33 Gote Playing **********
+Gote score = -5580
+Sente score = 5580
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | SILVER | PAWN
+Turn Duration: 687 ms
+ 430  |  450  |       |  690  |  690  |       |       |       |  430 
+      |  890  |       |  640  |       |  100  |       |       |      
+ 100  |  100  |       |  4720 |       |       |       |  100  |  100 
+      |       |  -450 |  100  |       |       |  100  |       |      
+      |       | -1150 |       |       |       |       |       |      
+      |       | -1040 |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 34 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 115540 | Duree = 3791 ms
+Score du noeud selectionne : 7865 | Threat = -183485
+Gote score = -7535
+Sente score = 7535
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | SILVER | PAWN | BISHOP
+Turn Duration: 3791 ms
+ 430  |  450  |       |  690  |  690  |       |       |       |  430 
+      |  -650 |       |  640  |       |  100  |       |       |      
+ 100  |  100  |       |  4720 |       |       |       |  100  |  100 
+      |       |       |  100  |       |       |  100  |       |      
+      |       | -1150 |       |       |       |       |       |      
+      |       | -1040 |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 35 Gote Playing **********
+Gote score = -7200
+Sente score = 7200
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | SILVER | PAWN | BISHOP
+Turn Duration: 1029 ms
+ 430  |  450  |       |  690  |  690  |       |       |       |  430 
+      |  -650 |       |  640  |  4720 |  100  |       |       |      
+ 100  |  100  |       |       |       |       |       |  100  |  100 
+      |       |       |  100  |       |       |  100  |       |      
+      |       | -1150 |       |       |       |       |       |      
+      |       | -1040 |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 36 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 163222 | Duree = 7769 ms
+Score du noeud selectionne : 8465 | Threat = -163355
+Gote score = -8100
+Sente score = 8100
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | SILVER | PAWN | BISHOP | KNIGHT
+Turn Duration: 7769 ms
+ 430  |  -650 |       |  690  |  690  |       |       |       |  430 
+      |       |       |  640  |  4720 |  100  |       |       |      
+ 100  |  100  |       |       |       |       |       |  100  |  100 
+      |       |       |  100  |       |       |  100  |       |      
+      |       | -1150 |       |       |       |       |       |      
+      |       | -1040 |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 37 Gote Playing **********
+Gote score = -8045
+Sente score = 8045
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | SILVER | PAWN | BISHOP | KNIGHT
+Turn Duration: 999 ms
+ 430  |  -650 |       |  690  |  690  |  4720 |       |       |  430 
+      |       |       |  640  |       |  100  |       |       |      
+ 100  |  100  |       |       |       |       |       |  100  |  100 
+      |       |       |  100  |       |       |  100  |       |      
+      |       | -1150 |       |       |       |       |       |      
+      |       | -1040 |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 38 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 157744 | Duree = 17487 ms
+Score du noeud selectionne : 9205 | Threat = -169390
+Gote score = -8880
+Sente score = 8880
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | SILVER | PAWN | BISHOP | KNIGHT | LANCE
+Turn Duration: 17487 ms
+ -650 |       |       |  690  |  690  |  4720 |       |       |  430 
+      |       |       |  640  |       |  100  |       |       |      
+ 100  |  100  |       |       |       |       |       |  100  |  100 
+      |       |       |  100  |       |       |  100  |       |      
+      |       | -1150 |       |       |       |       |       |      
+      |       | -1040 |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 39 Gote Playing **********
+Gote score = -8855
+Sente score = 8855
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | SILVER | PAWN | BISHOP | KNIGHT | LANCE
+Turn Duration: 1155 ms
+ -650 |       |       |       |  690  |  4720 |       |       |  430 
+      |       |  690  |  640  |       |  100  |       |       |      
+ 100  |  100  |       |       |       |       |       |  100  |  100 
+      |       |       |  100  |       |       |  100  |       |      
+      |       | -1150 |       |       |       |       |       |      
+      |       | -1040 |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 40 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 231503 | Duree = 29390 ms
+Score du noeud selectionne : 10330 | Threat = -181795
+Gote score = -9055
+Sente score = 9055
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | SILVER | PAWN | BISHOP | KNIGHT | LANCE | PAWN
+Turn Duration: 29390 ms
+ -650 |       |       |       |  690  |  4720 |       |       |  430 
+      |       |  690  |  640  |       |  100  |       |       |      
+ 100  |  100  |       |       |       |       |       |  100  |  100 
+      |       |       | -1150 |       |       |  100  |       |      
+      |       |       |       |       |       |       |       |      
+      |       | -1040 |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 41 Gote Playing **********
+Gote score = -9030
+Sente score = 9030
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | SILVER | PAWN | BISHOP | KNIGHT | LANCE | PAWN
+Turn Duration: 0 ms
+ -650 |       |       |       |       |  4720 |       |       |  430 
+      |       |  690  |  640  |  690  |  100  |       |       |      
+ 100  |  100  |       |       |       |       |       |  100  |  100 
+      |       |       | -1150 |       |       |  100  |       |      
+      |       |       |       |       |       |       |       |      
+      |       | -1040 |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 42 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 227062 | Duree = 29126 ms
+Score du noeud selectionne : 11800 | Threat = -203875
+Gote score = -10695
+Sente score = 10695
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | SILVER | PAWN | BISHOP | KNIGHT | LANCE | PAWN | GOLD
+Turn Duration: 29126 ms
+ -650 |       |       |       |       |  4720 |       |       |  430 
+      |       | -1300 |  640  |  690  |  100  |       |       |      
+ 100  |  100  |       |       |       |       |       |  100  |  100 
+      |       |       | -1150 |       |       |  100  |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 43 Gote Playing **********
+Gote score = -10600
+Sente score = 10600
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | SILVER | PAWN | BISHOP | KNIGHT | LANCE | PAWN | GOLD
+Turn Duration: 0 ms
+ -650 |       |       |       |  4720 |       |       |       |  430 
+      |       | -1300 |  640  |  690  |  100  |       |       |      
+ 100  |  100  |       |       |       |       |       |  100  |  100 
+      |       |       | -1150 |       |       |  100  |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 44 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 252732 | Duree = 57128 ms
+Score du noeud selectionne : 12105 | Threat = -171675
+Gote score = -10725
+Sente score = 10725
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | SILVER | PAWN | BISHOP | LANCE | PAWN | GOLD
+Turn Duration: 57128 ms
+ -650 |       |       |       |  4720 |       |       |       |  430 
+      |       | -1300 |  640  |  690  |  100  |       |       |      
+ 100  |  100  |       |       |       |       |       |  100  |  100 
+      |       |  -450 | -1150 |       |       |  100  |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 45 Gote Playing **********
+Gote score = -10700
+Sente score = 10700
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | SILVER | PAWN | BISHOP | LANCE | PAWN | GOLD
+Turn Duration: 421 ms
+ -650 |       |       |       |  4720 |       |       |       |  430 
+      |       | -1300 |       |  690  |  100  |       |       |      
+ 100  |  100  |  640  |       |       |       |       |  100  |  100 
+      |       |  -450 | -1150 |       |       |  100  |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 46 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 530866 | Duree = 213987 ms
+Score du noeud selectionne : 12605 | Threat = -176340
+Gote score = -12630
+Sente score = 12630
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | SILVER | PAWN | BISHOP | LANCE | PAWN | GOLD | SILVER
+Turn Duration: 213987 ms
+ -650 |       |       |       |  4720 |       |       |       |  430 
+      |       | -1300 |       |  690  |  100  |       |       |      
+ 100  |  100  | -1150 |       |       |       |       |  100  |  100 
+      |       |  -450 |       |       |       |  100  |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 47 Gote Playing **********
+Gote score = -12125
+Sente score = 12125
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | SILVER | PAWN | BISHOP | LANCE | PAWN | GOLD | SILVER
+Turn Duration: 0 ms
+ -650 |       |       |       |       |  4720 |       |       |  430 
+      |       | -1300 |       |  690  |  100  |       |       |      
+ 100  |  100  | -1150 |       |       |       |       |  100  |  100 
+      |       |  -450 |       |       |       |  100  |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 48 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 391189 | Duree = 78125 ms
+Score du noeud selectionne : 13535 | Threat = -184570
+Gote score = -12250
+Sente score = 12250
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | PAWN | BISHOP | LANCE | PAWN | GOLD | SILVER
+Turn Duration: 78125 ms
+ -650 |       |       |       |       |  4720 |       |       |  430 
+      |       | -1300 |       |  690  |  100  |       |       |      
+ 100  |  100  | -1150 |       |       |       |       |  100  |  100 
+      |       |  -450 |       |  -640 |       |  100  |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 49 Gote Playing **********
+Gote score = -12225
+Sente score = 12225
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | PAWN | BISHOP | LANCE | PAWN | GOLD | SILVER
+Turn Duration: 390 ms
+ -650 |       |       |       |       |       |  4720 |       |  430 
+      |       | -1300 |       |  690  |  100  |       |       |      
+ 100  |  100  | -1150 |       |       |       |       |  100  |  100 
+      |       |  -450 |       |  -640 |       |  100  |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 50 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 254845 | Duree = 34024 ms
+Score du noeud selectionne : 13805 | Threat = -151155
+Gote score = -13630
+Sente score = 13630
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | PAWN | BISHOP | LANCE | PAWN | GOLD | SILVER | GOLD
+Turn Duration: 34024 ms
+ -650 |       |       |       |       |       |  4720 |       |  430 
+      |       |       |       | -1300 |  100  |       |       |      
+ 100  |  100  | -1150 |       |       |       |       |  100  |  100 
+      |       |  -450 |       |  -640 |       |  100  |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 51 Gote Playing **********
+Gote score = -13565
+Sente score = 13565
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | PAWN | BISHOP | LANCE | PAWN | GOLD | SILVER | GOLD
+Turn Duration: 218 ms
+ -650 |       |       |       |       |       |       |  4720 |  430 
+      |       |       |       | -1300 |  100  |       |       |      
+ 100  |  100  | -1150 |       |       |       |       |  100  |  100 
+      |       |  -450 |       |  -640 |       |  100  |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 52 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 326100 | Duree = 43758 ms
+Score du noeud selectionne : 14165 | Threat = -153565
+Gote score = -13965
+Sente score = 13965
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | PAWN | BISHOP | LANCE | PAWN | GOLD | SILVER | GOLD
+Turn Duration: 43758 ms
+ -650 |       |       |       | -1300 |       |       |  4720 |  430 
+      |       |       |       |       |  100  |       |       |      
+ 100  |  100  | -1150 |       |       |       |       |  100  |  100 
+      |       |  -450 |       |  -640 |       |  100  |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 53 Gote Playing **********
+Gote score = -13755
+Sente score = 13755
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | PAWN | BISHOP | LANCE | PAWN | GOLD | SILVER | GOLD
+Turn Duration: 125 ms
+ -650 |       |       |       | -1300 |       |       |       |  430 
+      |       |       |       |       |  100  |       |       |  4720
+ 100  |  100  | -1150 |       |       |       |       |  100  |  100 
+      |       |  -450 |       |  -640 |       |  100  |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 54 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 354547 | Duree = 51059 ms
+Score du noeud selectionne : 14640 | Threat = -110875
+Gote score = -13755
+Sente score = 13755
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | PAWN | LANCE | PAWN | GOLD | SILVER | GOLD
+Turn Duration: 51059 ms
+ -650 |       |       |       | -1300 |       |       |       |  430 
+      |       |       |       |       |  100  |       |       |  4720
+ 100  |  100  | -1150 |       |       |       |       |  100  |  100 
+      |       |  -450 |       |  -640 |  -890 |  100  |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 55 Gote Playing **********
+Gote score = -13755
+Sente score = 13755
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | PAWN | LANCE | PAWN | GOLD | SILVER | GOLD
+Turn Duration: 93 ms
+ -650 |       |       |       | -1300 |       |       |       |  430 
+      |       |       |       |       |       |       |       |  4720
+ 100  |  100  | -1150 |       |       |  100  |       |  100  |  100 
+      |       |  -450 |       |  -640 |  -890 |  100  |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 56 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 301960 | Duree = 58126 ms
+Score du noeud selectionne : 14895 | Threat = -98980
+Gote score = -14010
+Sente score = 14010
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | PAWN | LANCE | PAWN | GOLD | SILVER | GOLD | PAWN
+Turn Duration: 58126 ms
+ -650 |       |       |       | -1300 |       |       |       |  430 
+      |       |       |       |       |       |       |       |  4720
+ 100  |  100  | -1150 |       |       |  -670 |       |  100  |  100 
+      |       |  -450 |       |       |  -890 |  100  |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 57 Gote Playing **********
+Gote score = -14010
+Sente score = 14010
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | PAWN | LANCE | PAWN | GOLD | SILVER | GOLD | PAWN
+Turn Duration: 78 ms
+ -650 |       |       |       | -1300 |       |       |       |  430 
+      |       |       |       |       |       |       |       |  4720
+      |  100  | -1150 |       |       |  -670 |       |  100  |  100 
+ 100  |       |  -450 |       |       |  -890 |  100  |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 58 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 276863 | Duree = 40951 ms
+Score du noeud selectionne : 15095 | Threat = -86170
+Gote score = -14210
+Sente score = 14210
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | PAWN | LANCE | PAWN | GOLD | SILVER | GOLD | PAWN | PAWN
+Turn Duration: 40951 ms
+ -650 |       |       |       | -1300 |       |       |       |  430 
+      |       |       |       |       |       |       |       |  4720
+      | -1150 |       |       |       |  -670 |       |  100  |  100 
+ 100  |       |  -450 |       |       |  -890 |  100  |       |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 59 Gote Playing **********
+Gote score = -14210
+Sente score = 14210
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | PAWN | LANCE | PAWN | GOLD | SILVER | GOLD | PAWN | PAWN
+Turn Duration: 62 ms
+ -650 |       |       |       | -1300 |       |       |       |  430 
+      |       |       |       |       |       |       |       |  4720
+      | -1150 |       |       |       |  -670 |       |       |  100 
+ 100  |       |  -450 |       |       |  -890 |  100  |  100  |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 60 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 353755 | Duree = 44211 ms
+Score du noeud selectionne : 15295 | Threat = -87610
+Gote score = -14410
+Sente score = 14410
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | PAWN | LANCE | PAWN | GOLD | SILVER | GOLD | PAWN | PAWN | PAWN
+Turn Duration: 44211 ms
+ -650 |       |       |       | -1300 |       |       |       |  430 
+      |       |       |       |       |       |       |       |  4720
+      |       |       |       |       |  -670 |       |       |  100 
+-1150 |       |  -450 |       |       |  -890 |  100  |  100  |      
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 61 Gote Playing **********
+Gote score = -14410
+Sente score = 14410
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | PAWN | LANCE | PAWN | GOLD | SILVER | GOLD | PAWN | PAWN | PAWN
+Turn Duration: 62 ms
+ -650 |       |       |       | -1300 |       |       |       |  430 
+      |       |       |       |       |       |       |       |  4720
+      |       |       |       |       |  -670 |       |       |      
+-1150 |       |  -450 |       |       |  -890 |  100  |  100  |  100 
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 62 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 427092 | Duree = 48953 ms
+Score du noeud selectionne : 15470 | Threat = -103385
+Gote score = -14560
+Sente score = 14560
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | PAWN | LANCE | PAWN | SILVER | GOLD | PAWN | PAWN | PAWN
+Turn Duration: 48953 ms
+ -650 |       |       |       | -1300 |       |       |       |  430 
+      |       |       |       |       |       |  -690 |       |  4720
+      |       |       |       |       |  -670 |       |       |      
+-1150 |       |  -450 |       |       |  -890 |  100  |  100  |  100 
+      |       |       |       |       |       |       |       |      
+      |       |       |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 63 Gote Playing **********
+Gote score = -14560
+Sente score = 14560
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | PAWN | LANCE | PAWN | SILVER | GOLD | PAWN | PAWN | PAWN
+Turn Duration: 78 ms
+ -650 |       |       |       | -1300 |       |       |       |  430 
+      |       |       |       |       |       |  -690 |       |  4720
+      |       |       |       |       |  -670 |       |       |      
+-1150 |       |  -450 |       |       |  -890 |       |  100  |  100 
+      |       |       |       |       |       |  100  |       |      
+      |       |       |       |       |  -100 |  -100 |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 64 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 349854 | Duree = 49312 ms
+Score du noeud selectionne : 15670 | Threat = -90025
+Gote score = -14760
+Sente score = 14760
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | PAWN | LANCE | PAWN | SILVER | GOLD | PAWN | PAWN | PAWN | PAWN
+Turn Duration: 49312 ms
+ -650 |       |       |       | -1300 |       |       |       |  430 
+      |       |       |       |       |       |  -690 |       |  4720
+      |       |       |       |       |  -670 |       |       |      
+-1150 |       |  -450 |       |       |  -890 |       |  100  |  100 
+      |       |       |       |       |       |  -100 |       |      
+      |       |       |       |       |  -100 |       |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 65 Gote Playing **********
+Gote score = -14760
+Sente score = 14760
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | PAWN | LANCE | PAWN | SILVER | GOLD | PAWN | PAWN | PAWN | PAWN
+Turn Duration: 78 ms
+ -650 |       |       |       | -1300 |       |       |       |  430 
+      |       |       |       |       |       |  -690 |       |  4720
+      |       |       |       |       |  -670 |       |       |      
+-1150 |       |  -450 |       |       |  -890 |       |       |  100 
+      |       |       |       |       |       |  -100 |  100  |      
+      |       |       |       |       |  -100 |       |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |  -450 |  -100 |  -100
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 66 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 321275 | Duree = 34664 ms
+Score du noeud selectionne : 15920 | Threat = -76665
+Gote score = -15010
+Sente score = 15010
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | PAWN | LANCE | PAWN | SILVER | GOLD | PAWN | PAWN | PAWN | PAWN | PAWN
+Turn Duration: 34664 ms
+ -650 |       |       |       | -1300 |       |       |       |  430 
+      |       |       |       |       |       |  -690 |       |  4720
+      |       |       |       |       |  -670 |       |       |      
+-1150 |       |  -450 |       |       |  -890 |       |       |  100 
+      |       |       |       |       |       |  -100 |  -450 |      
+      |       |       |       |       |  -100 |       |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |       |  -100 |  -100
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 67 Gote Playing **********
+Gote score = -15010
+Sente score = 15010
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | PAWN | LANCE | PAWN | SILVER | GOLD | PAWN | PAWN | PAWN | PAWN | PAWN
+Turn Duration: 46 ms
+ -650 |       |       |       | -1300 |       |       |       |  430 
+      |       |       |       |       |       |  -690 |       |  4720
+      |       |       |       |       |  -670 |       |       |      
+-1150 |       |  -450 |       |       |  -890 |       |       |      
+      |       |       |       |       |       |  -100 |  -450 |  100 
+      |       |       |       |       |  -100 |       |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |       |  -100 |  -100
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 68 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 344252 | Duree = 38267 ms
+Score du noeud selectionne : 16080 | Threat = -77240
+Gote score = -15110
+Sente score = 15110
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | PAWN | LANCE | PAWN | GOLD | PAWN | PAWN | PAWN | PAWN | PAWN
+Turn Duration: 38267 ms
+ -650 |       |       |       | -1300 |       |       |       |  430 
+      |       |       |       |       |       |  -690 |       |  4720
+      |       |       |       |  -640 |  -670 |       |       |      
+-1150 |       |  -450 |       |       |  -890 |       |       |      
+      |       |       |       |       |       |  -100 |  -450 |  100 
+      |       |       |       |       |  -100 |       |       |      
+ -100 |  -100 |  -100 |  -100 |       |       |       |  -100 |  -100
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 69 Gote Playing **********
+Gote score = -15110
+Sente score = 15110
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | PAWN | LANCE | PAWN | GOLD | PAWN | PAWN | PAWN | PAWN | PAWN
+Turn Duration: 32 ms
+ -650 |       |       |       | -1300 |       |       |       |  430 
+      |       |       |       |       |       |  -690 |       |  4720
+      |       |       |       |  -640 |  -670 |       |       |      
+-1150 |       |  -450 |       |       |  -890 |       |       |      
+      |       |       |       |       |       |  -100 |  -450 |      
+      |       |       |       |       |  -100 |       |       |  100 
+ -100 |  -100 |  -100 |  -100 |       |       |       |  -100 |  -100
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 70 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 283224 | Duree = 92446 ms
+Score du noeud selectionne : 16365 | Threat = -62970
+Gote score = -15350
+Sente score = 15350
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | PAWN | LANCE | PAWN | GOLD | PAWN | PAWN | PAWN | PAWN | PAWN | PAWN
+Turn Duration: 92446 ms
+ -650 |       |       |       | -1300 |       |       |       |  430 
+      |       |       |       |       |       |  -690 |       |  4720
+      |       |       |       |  -640 |  -670 |       |       |      
+-1150 |       |  -450 |       |       |  -890 |       |       |      
+      |       |       |       |       |       |  -100 |  -450 |      
+      |       |       |       |       |  -100 |       |       |  -100
+ -100 |  -100 |  -100 |  -100 |       |       |       |  -100 |      
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 71 Gote Playing **********
+Gote score = -15645
+Sente score = 15645
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | PAWN | LANCE | PAWN | GOLD | PAWN | PAWN | PAWN | PAWN | PAWN | PAWN
+Turn Duration: 31 ms
+ -650 |       |       |       | -1300 |       |       |  4720 |  430 
+      |       |       |       |       |       |  -690 |       |      
+      |       |       |       |  -640 |  -670 |       |       |      
+-1150 |       |  -450 |       |       |  -890 |       |       |      
+      |       |       |       |       |       |  -100 |  -450 |      
+      |       |       |       |       |  -100 |       |       |  -100
+ -100 |  -100 |  -100 |  -100 |       |       |       |  -100 |      
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+********** Turn 72 Sente Playing **********
+Entree de l'algo AlphaBeta avec Aspiration Gote Turn ? False
+Sortie de l'algo AlphaBeta avec Aspiration. Nodes Checked = 0 | Duree = 16 ms
+Score du noeud selectionne : 0 | Threat = -999999999
+Gote score = -999999999
+Sente score = 999999999
+Gote Captured Tokens = { }
+Sente Captured Tokens = PAWN | PAWN | PAWN | LANCE | PAWN | GOLD | PAWN | PAWN | PAWN | PAWN | PAWN | PAWN | KING
+Turn Duration: 16 ms
+ -650 |       |       |       |       |       |       | -1300 |  430 
+      |       |       |       |       |       |  -690 |       |      
+      |       |       |       |  -640 |  -670 |       |       |      
+-1150 |       |  -450 |       |       |  -890 |       |       |      
+      |       |       |       |       |       |  -100 |  -450 |      
+      |       |       |       |       |  -100 |       |       |  -100
+ -100 |  -100 |  -100 |  -100 |       |       |       |  -100 |      
+      |       | -1040 |       |       |       |       |       |      
+ -430 |  -450 |  -640 |  -690 | -4720 |  -690 |  -640 |       |  -430
+Sente won
+Game Duration: 1381748 ms

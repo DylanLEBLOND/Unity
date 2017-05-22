@@ -27,6 +27,9 @@ namespace AlphaBeta
 			for (depthSearch = 1; depthSearch <= depth; depthSearch++) // iterative deepening
 			{
 				bestNode = AlphaBeta (root, depthSearch, alpha, beta, isGote, movesPlayed, index, ref gameWorkflow);
+				if (bestNode.getChildrenThreat() == -999999999)		// winning node
+					break;
+					
 				bestValue = bestNode.getScore ();
 				totalNodeCount += nodeCount;
 
@@ -100,21 +103,25 @@ namespace AlphaBeta
 			{
 				nodeCount++;
 
-				if (!Node.ListContainsNode(movesPlayed, children[i]) && children[i].getChildrenThreat() != 999999999)
-				{
-					neverPlayedNode.Add(i);
-				}
+				if (children [i].getChildrenThreat () == 999999999)		// Suicide Move (with the node sort this will be the last node so we can stop now)
+					break;
 
-				if ((!children[i].stillAlive(!isGote) || children[i].getChildrenThreat() == -999999999) && !Node.ListContainsNode(movesPlayed, children[i]))        // terminal node
+				if (Node.ListContainsNode (movesPlayed, children[i]))
+					continue;		// we will start an infinite loop
+
+				if (! Node.ListContainsNode (movesPlayed, children [i]))
+					neverPlayedNode.Add (i);
+
+				if ((! children [i].stillAlive (!isGote) || children [i].getChildrenThreat() == -999999999))		// winning node
 				{
-					selectedNode = i;
 					foundNode = true;
+					selectedNode = i;
 					break;
 				}
 
 				children[i].setScore(AlphaBetaMin(children[i], depth - 1, alpha, beta, isGote, root, index));
 
-				if (children[i].getScore() > maxScore && children[i].getChildrenThreat() != 999999999 && !Node.ListContainsNode(movesPlayed, children[i]))
+				if (children[i].getScore() > maxScore && children[i].getChildrenThreat() != 999999999)
 				{
 					selectedNode = i;
 					maxScore = children[selectedNode].getScore();
@@ -128,17 +135,13 @@ namespace AlphaBeta
 				}
 
 				if (maxScore > alpha)
-				{
 					alpha = maxScore;
-				}
-
 			}
 			tac = Environment.TickCount;
+
 			if (!foundNode && neverPlayedNode.Count > 0)
-			{
-//				Console.WriteLine ("I'm Here i = {0} | children Count = {1}", i, children.Count);
 				selectedNode = neverPlayedNode[new Random().Next (neverPlayedNode.Count)];
-			}
+
 //			Console.WriteLine ("Sortie de l'algo AlphaBeta. Node Index = " + selectedNode + " | Nodes Checked = " + nodeCount.ToString () + " | Duree = " + (tac - tic).ToString() + " ms");
 //			gameWorkflow += "Sortie de l'algo AlphaBeta. Node Index = " + selectedNode + " | Nodes Checked = " + nodeCount.ToString () + " | Duree = " + (tac - tic).ToString() + " ms\n";
 
